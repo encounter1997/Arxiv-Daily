@@ -2,7 +2,7 @@
 My daily arxiv reading note
 
 
-## CV (daily)
+## CV (Daily)
 #### 20210318
 CVPR21：  
 https://arxiv.org/pdf/2103.09458.pdf 做Dynamic Time Warping（视频summary）  
@@ -23,7 +23,93 @@ https://arxiv.org/pdf/2103.09479.pdf Disentangled Cycle Consistency for Highly-r
 https://arxiv.org/pdf/2103.09504.pdf 做Spatiotemporal Predictive Learning（视频帧预测）（龙明盛）  
 
 
+#### 20210317
+CVPR21：  
+https://arxiv.org/pdf/2103.09096.pdf 提出Frequency-aware特征学习和新的损失函数做Face Forgery Detection（Yongdong Zhang）  
+https://arxiv.org/pdf/2103.08907.pdf 弱监督实例分割  
+https://arxiv.org/pdf/2103.08896.pdf 弱监督语义分割  
+https://arxiv.org/pdf/2103.08808.pdf Multi-Object Tracking  
+
+其他：  
+https://arxiv.org/pdf/2103.08849.pdf 多语言的vision language预训练模型（NAACL）  
+https://arxiv.org/pdf/2103.09108.pdf 探讨ImageNet预训练CNN的泛化性  
+https://arxiv.org/pdf/2103.09118.pdf Balancing Biases and Preserving Privacy on Balanced Faces in the Wild（TPAMI，Yun Fu）  
+https://arxiv.org/pdf/2103.09136.pdf 在FPN中加入object query提升对小物体的检测（Naiyan Wang）  
+https://arxiv.org/pdf/2103.09013.pdf transormer做视频reid（Zhibo Chen, Xian-Sheng Hua）  
+https://arxiv.org/pdf/2103.08863.pdf 跨域人脸超分辨（杨易）  
+https://arxiv.org/pdf/2103.09030.pdf 电梯按钮识别数据集  
 
 
+#### 20210316
+CVPR21：  
+https://arxiv.org/pdf/2103.08214.pdf 指出并应对HOI中的长尾分布问题（侯志）  
+https://arxiv.org/pdf/2103.08468.pdf 从回声和RGB图像中预测深度（多模态）  
+https://arxiv.org/pdf/2103.07939.pdf 半监督视频去雨  
+https://arxiv.org/pdf/2103.07893.pdf 对比学习提升条件GAN图像合成的多样性（CHHK）  
+https://arxiv.org/pdf/2103.07941.pdf 交互式视频分割  
+https://arxiv.org/pdf/2103.07733.pdf Rotation-equivariant Detector for Aerial Object Detection  
+https://arxiv.org/pdf/2103.07531.pdf 基于不确定度评估做single domain generalization  
+https://arxiv.org/pdf/2103.07503.pdf 人脸识别域泛化（Yi-Hsuan Tsai）  
+https://arxiv.org/pdf/2103.08273.pdf 采用类似BiFPN的连接方式做知识蒸馏  
 
+其他：  
+https://arxiv.org/pdf/2103.07976.pdf transformer细粒度分类（Alan Yuille组）  
+https://arxiv.org/pdf/2103.07579.pdf Revisiting ResNets: Improved Training and Scaling Strategies，改进resnet，以更快的推理速度取得和EfficientNet相当的性能（Tsung-Yi Lin）  
+https://arxiv.org/pdf/2103.07751.pdf GAN做图像变换（周博磊组）  
+https://arxiv.org/pdf/2103.08357.pdf Frequency-aware Dynamic Network for Efficient Super-Resolution （王云鹤）  
+
+
+#### 20210312
+CVPR21：  
+https://arxiv.org/pdf/2103.06879.pdf CoMoGAN做连续图像翻译  
+https://arxiv.org/pdf/2103.06877.pdf FAIR组对标谷歌efficientnet，指出现有模型scaling方法只考虑准确率和计算量，忽视了实际的运行时间。通过限制网络的activation数目，实现Fast and Accurate Model Scaling  
+https://arxiv.org/pdf/2103.06342.pdf 持续学习语义分割  
+
+其他：  
+https://arxiv.org/pdf/2103.06561.pdf 人大、中科院大型vision language预训练模型WenLan，对标CLIP  
+https://arxiv.org/pdf/2103.06501.pdf 基于自监督图像解耦的雾天图像合成  
+
+
+#### 20210311
+CVPR21:  
+https://arxiv.org/pdf/2103.06255.pdf 内卷网络（self-attention变种）  
+https://arxiv.org/pdf/2103.06122.pdf 能应对dense prediction task的对比学习方法  
+https://arxiv.org/pdf/2103.05983.pdf HOI transformer  
+https://arxiv.org/pdf/2103.05950.pdf 对比学习做few shot目标检测  
+https://arxiv.org/pdf/2103.05905.pdf VideoMoCo对比学习做视频任务  
+https://arxiv.org/pdf/2103.05687.pdf 用attention做广角镜头下的语义分割  
+https://arxiv.org/pdf/2103.05863.pdf AutoAugmentation升级版，能处理噪声数据  
+
+其他：
+https://arxiv.org/pdf/2103.06175.pdf 回归域适应关键点检测（龙明盛组）  
+https://arxiv.org/pdf/2103.06104.pdf UNet Transformer  
+
+
+#### 20210310
+CVPR2021：  
+https://arxiv.org/pdf/2103.05254.pdf 语义分割域适应  
+https://arxiv.org/pdf/2103.05346.pdf 3D目标检测域适应  
+https://arxiv.org/pdf/2103.05471.pdf contrastive NAS  
+
+其他：  
+https://arxiv.org/pdf/2103.05423.pdf 3D语义分割综述  
+
+
+#### 20210309
+CVPR21：  
+https://arxiv.org/pdf/2103.04717.pdf multi-source语义分割域适应  
+https://arxiv.org/pdf/2103.04705.pdf 半监督语义分割域适应  
+https://arxiv.org/pdf/2103.04224.pdf 目标检测域适应  
+https://arxiv.org/pdf/2103.04503.pdf human object interaction transformer  
+
+其他：  
+https://arxiv.org/pdf/2103.04814.pdf 自监督目标检测  
+https://arxiv.org/pdf/2103.04037.pdf 探讨多模态transformer  
+https://arxiv.org/pdf/2103.04430.pdf 医学分割transformer  
+
+#### 20210302
+https://arxiv.org/pdf/2103.01209.pdf transformer GAN  
+https://arxiv.org/pdf/2103.01075.pdf OmniNet让transformer能够建模网络不同层特征的全局信息，在cv和nlp任务上均有效  
+https://arxiv.org/pdf/2103.00776.pdf 用transformer做Single-Shot Motion Completion  
+https://arxiv.org/pdf/2103.00112.pdf Transformer in Transformer 基于vit，用一个inner transformer建模pixel级别的特征表示  
 ## NLP (Weekly)
