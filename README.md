@@ -1,5 +1,5 @@
 # Arxiv-Daily
-My daily arxiv reading note
+My daily arxiv reading notes
 
 
 ## CV (Daily)
