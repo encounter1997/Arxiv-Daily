@@ -4,28 +4,25 @@ My daily arxiv reading notes
 
 ## CV (Daily)
 #### 20210319
-CVPR2021：
-[Generating Diverse Structure for Image Inpainting With Hierarchical VQ-VAE](https://arxiv.org/pdf/2103.10022.pdf) Diverse Image Inpainting (刘东，李厚强)   
-[Neural Parts: Learning Expressive 3D Shape Abstractions with Invertible Neural Networks](https://arxiv.org/pdf/2103.10429.pdf)  
-[Learning to Recommend Frame for Interactive Video Object Segmentation in the Wild](https://arxiv.org/pdf/2103.10391.pdf) 交互式视频分割  
-
-其他：
+[Generating Diverse Structure for Image Inpainting With Hierarchical VQ-VAE](https://arxiv.org/pdf/2103.10022.pdf) Diverse Image Inpainting (刘东，李厚强，CVPR2021)   
+[Neural Parts: Learning Expressive 3D Shape Abstractions with Invertible Neural Networks](https://arxiv.org/pdf/2103.10429.pdf)  （CVPR2021）   
+[Learning to Recommend Frame for Interactive Video Object Segmentation in the Wild](https://arxiv.org/pdf/2103.10391.pdf) 交互式视频分割 （CVPR2021）   
 [Large Scale Image Completion via Co-Modulated Generative Adversarial Networks](https://arxiv.org/pdf/2103.10428.pdf) GAN Image Completion (ICLR21)   
-[Using latent space regression to analyze and leverage compositionality in GANs](https://arxiv.org/pdf/2103.10426.pdf) 用latent space回归理解和运用的GAN组成 (ICLR21, Phillip Isola)  
+[Using latent space regression to analyze and leverage compositionality in GANs](https://arxiv.org/pdf/2103.10426.pdf) 用latent space回归理解和运用的GAN组成 (ICLR21, Phillip Isola)    
 [Deep Wiener Deconvolution: Wiener Meets Deep Learning for Image Deblurring](https://arxiv.org/pdf/2103.09962.pdf) 将Wiener反卷积与深度学习结合做图像去模糊 (NIPS20)  
 [Learning to Resize Images for Computer Vision Tasks](https://arxiv.org/pdf/2103.09950.pdf) 可学习的图像resize，虽然视觉效果不好，但显著提升ImageNet分类即下游任务的性能 (Google Research)   
 [The Untapped Potential of Off-the-Shelf Convolutional Neural Networks](https://arxiv.org/pdf/2103.09891.pdf) 在测试时dynamically改变预训练网络的topology做预测，能将ResNet50 top1准确率提升到95% （陈怡然）  
 [The Low-Rank Simplicity Bias in Deep Networks](https://arxiv.org/pdf/2103.10427.pdf) 指出DNN倾向于学到lower rank solutions，因此不会overfit训练集，具有较好泛化能力   
-[DanceNet3D: Music Based Dance Generation with Parametric Motion Transformer](https://arxiv.org/pdf/2103.10206.pdf) transformer从音乐中生成舞蹈视频  
-[Consistency-based Active Learning for Object Detection](https://arxiv.org/pdf/2103.10374.pdf) acitve learning做目标检测  
-[SG-Net: Spatial Granularity Network for One-Stage Video Instance Segmentation](https://arxiv.org/pdf/2103.10284.pdf) One-Stage Video Instance Segmentation  
-[Pseudo-ISP: Learning Pseudo In-camera Signal Processing Pipeline from A Color Image Denoiser](https://arxiv.org/pdf/2103.10234.pdf) 做真实场景去噪（Wangmeng Zuo）  
-[Decoupled Spatial Temporal Graphs for Generic Visual Grounding](https://arxiv.org/pdf/2103.10191.pdf) 提出Generic Visual Grounding，更接近真实场景的Visual grounding问题设置，并提出新的数据集和方法 (程明明，杨易)  
-[Space-Time Crop & Attend: Improving Cross-modal Video Representation Learning](https://arxiv.org/pdf/2103.10211.pdf) 指出自监督视频特征表示学习中，spatial augmentations如cropping十分重要，提出Feature Crop并利用transformer-based attention替代平均池化  
-[TrivialAugment: Tuning-free Yet State-of-the-Art Data Augmentation](https://arxiv.org/pdf/2103.10158.pdf) 提出一个简单有效的自动数据增强方法TrivialAugment  
-[Self-Supervised Adaptation for Video Super-Resolution](https://arxiv.org/pdf/2103.10081.pdf) 自监督adaptation做视频超分辨  
-[Enhancing Transformer for Video Understanding Using Gated Multi-Level Attention and Temporal Adversarial Training](https://arxiv.org/pdf/2103.10043.pdf) Transformer做Video Understanding
-[RangeDet: In Defense of Range View for LiDAR-based 3D Object Detection](https://arxiv.org/pdf/2103.10039.pdf) 基于Lidar的3D目标检测（Naiyan Wang）
+[DanceNet3D: Music Based Dance Generation with Parametric Motion Transformer](https://arxiv.org/pdf/2103.10206.pdf) transformer从音乐中生成舞蹈视频    
+[Consistency-based Active Learning for Object Detection](https://arxiv.org/pdf/2103.10374.pdf) acitve learning做目标检测   
+[SG-Net: Spatial Granularity Network for One-Stage Video Instance Segmentation](https://arxiv.org/pdf/2103.10284.pdf) One-Stage Video Instance Segmentation   
+[Pseudo-ISP: Learning Pseudo In-camera Signal Processing Pipeline from A Color Image Denoiser](https://arxiv.org/pdf/2103.10234.pdf) 做真实场景去噪（Wangmeng Zuo）   
+[Decoupled Spatial Temporal Graphs for Generic Visual Grounding](https://arxiv.org/pdf/2103.10191.pdf) 提出Generic Visual Grounding，更接近真实场景的Visual grounding问题设置，并提出新的数据集和方法 (程明明，杨易)    
+[Space-Time Crop & Attend: Improving Cross-modal Video Representation Learning](https://arxiv.org/pdf/2103.10211.pdf) 指出自监督视频特征表示学习中，spatial augmentations如cropping十分重要，提出Feature Crop并利用transformer-based attention替代平均池化    
+[TrivialAugment: Tuning-free Yet State-of-the-Art Data Augmentation](https://arxiv.org/pdf/2103.10158.pdf) 提出一个简单有效的自动数据增强方法TrivialAugment    
+[Self-Supervised Adaptation for Video Super-Resolution](https://arxiv.org/pdf/2103.10081.pdf) 自监督adaptation做视频超分辨   
+[Enhancing Transformer for Video Understanding Using Gated Multi-Level Attention and Temporal Adversarial Training](https://arxiv.org/pdf/2103.10043.pdf) Transformer做Video Understanding    
+[RangeDet: In Defense of Range View for LiDAR-based 3D Object Detection](https://arxiv.org/pdf/2103.10039.pdf) 基于Lidar的3D目标检测（Naiyan Wang）  
 [SparsePoint: Fully End-to-End Sparse 3D Object Detector](https://arxiv.org/pdf/2103.10042.pdf) Follow DETR和SparseRCNN做Sparse的3D目标检测
 
 #### 20210318
