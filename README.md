@@ -4,35 +4,35 @@ My daily arxiv reading notes
 
 ## CV (Daily)
 #### 20210322
-CVPR21:
-https://arxiv.org/pdf/2103.10571.pdf 指出perceptual loss起作用的原因不是网络预训练的权重，而是网络本身的拓扑结构，使用随机初始化的网络计算perceptual loss在语义分割、深度估计、实例分割等任务上取得良好效果（Chunhua Shen）
-https://arxiv.org/pdf/2103.10559.pdf Compression-Driven Network Design for Frame Interpolation
-https://arxiv.org/pdf/2103.10814.pdf an Unsupervised Aligned Keypoint Detector （卢策吾）
-https://arxiv.org/pdf/2103.10663.pdf 医学诊断
-https://arxiv.org/pdf/2103.10681.pdf 将superpixel segmentation看作lifelong clustering task，提出一个CNN-based superpixel segmentation方法
-https://arxiv.org/pdf/2103.10621.pdf 低光照图像增强
-https://arxiv.org/pdf/2103.10583.pdf 用Dynamic Network做Multi-Source Domain Adaptation
-https://arxiv.org/pdf/2103.10895.pdf 下水道缺陷检测benchmark
+CVPR21:  
+https://arxiv.org/pdf/2103.10571.pdf 指出perceptual loss起作用的原因不是网络预训练的权重，而是网络本身的拓扑结构，使用随机初始化的网络计算perceptual loss在语义分割、深度估计、实例分割等任务上取得良好效果（Chunhua Shen）  
+https://arxiv.org/pdf/2103.10559.pdf Compression-Driven Network Design for Frame Interpolation  
+https://arxiv.org/pdf/2103.10814.pdf an Unsupervised Aligned Keypoint Detector （卢策吾）  
+https://arxiv.org/pdf/2103.10663.pdf 医学诊断  
+https://arxiv.org/pdf/2103.10681.pdf 将superpixel segmentation看作lifelong clustering task，提出一个CNN-based superpixel segmentation方法  
+https://arxiv.org/pdf/2103.10621.pdf 低光照图像增强  
+https://arxiv.org/pdf/2103.10583.pdf 用Dynamic Network做Multi-Source Domain Adaptation  
+https://arxiv.org/pdf/2103.10895.pdf 下水道缺陷检测benchmark  
 
-Vision Transofomer：
-https://arxiv.org/ftp/arxiv/papers/2103/2103.10480.pdf 多模态预训练模型的对抗鲁棒性（主要基于CLIP做研究）
-https://arxiv.org/pdf/2103.10504.pdf Transformers for 3D Medical Image Segmentation
-https://arxiv.org/pdf/2103.10455.pdf pure transformer做3D Human Pose Estimation
-https://arxiv.org/pdf/2103.10574.pdf transformer做Spatiotemporal Reasoning（ICLR21）
-https://arxiv.org/pdf/2103.10619.pdf 指出ViT ，DeiT在整个inference过程中使用固定长度的sequence可能是冗余的，提出Hierarchical Visual Transformer (HVT)，采用类似CNN池化的方式对sequence长度做下采样，并对depth/width/resolution/patch size等维度做scaling。发现平均池化做全局信息聚合的判别性好于cls token
-https://arxiv.org/pdf/2103.10697.pdf ConViT 提出gated positional self-attention (GPSA)，以一种“soft”的方式在vision transformer中引入CNN的inductive bias
-https://arxiv.org/pdf/2103.10699.pdf 用transformer做text to video Retrieval
+Vision Transofomer：  
+https://arxiv.org/ftp/arxiv/papers/2103/2103.10480.pdf 多模态预训练模型的对抗鲁棒性（主要基于CLIP做研究）  
+https://arxiv.org/pdf/2103.10504.pdf Transformers for 3D Medical Image Segmentation  
+https://arxiv.org/pdf/2103.10455.pdf pure transformer做3D Human Pose Estimation  
+https://arxiv.org/pdf/2103.10574.pdf transformer做Spatiotemporal Reasoning（ICLR21）  
+https://arxiv.org/pdf/2103.10619.pdf 指出ViT ，DeiT在整个inference过程中使用固定长度的sequence可能是冗余的，提出Hierarchical Visual Transformer (HVT)，采用类似CNN池化的方式对sequence长度做下采样，并对depth/width/resolution/patch size等维度做scaling。发现平均池化做全局信息聚合的判别性好于cls token  
+https://arxiv.org/pdf/2103.10697.pdf ConViT 提出gated positional self-attention (GPSA)，以一种“soft”的方式在vision transformer中引入CNN的inductive bias  
+https://arxiv.org/pdf/2103.10699.pdf 用transformer做text to video Retrieval  
 
-其他：
-https://arxiv.org/pdf/2103.10919.pdf Robustness via Cross-Domain Ensembles基不确定度于对多个域上的输出做ensemble提升模型鲁棒性
-https://arxiv.org/pdf/2103.10951.pdf Paint by Word：用word引导inpainting内容
-https://arxiv.org/pdf/2103.10609.pdf Boosting Adversarial Transferability through Enhanced Momentum（胡瀚，王井东）
-https://arxiv.org/pdf/2103.10773.pdf 提出UniMoCo，将无监督、半监督和全监督任务结合，基于MoCo做表征学习
-https://arxiv.org/pdf/2103.10702.pdf 提出一种top-down方法做Text-based Video Segmentation（杨易）
+其他：  
+https://arxiv.org/pdf/2103.10919.pdf Robustness via Cross-Domain Ensembles基不确定度于对多个域上的输出做ensemble提升模型鲁棒性   
+https://arxiv.org/pdf/2103.10951.pdf Paint by Word：用word引导inpainting内容  
+https://arxiv.org/pdf/2103.10609.pdf Boosting Adversarial Transferability through Enhanced Momentum（胡瀚，王井东）  
+https://arxiv.org/pdf/2103.10773.pdf 提出UniMoCo，将无监督、半监督和全监督任务结合，基于MoCo做表征学习  
+https://arxiv.org/pdf/2103.10702.pdf 提出一种top-down方法做Text-based Video Segmentation（杨易）  
 
 #### 20210319
-[Generating Diverse Structure for Image Inpainting With Hierarchical VQ-VAE](https://arxiv.org/pdf/2103.10022.pdf) Diverse Image Inpainting (刘东，李厚强，CVPR2021)   
-[Neural Parts: Learning Expressive 3D Shape Abstractions with Invertible Neural Networks](https://arxiv.org/pdf/2103.10429.pdf)  （CVPR2021）   
+[Generating Diverse Structure for Image Inpainting With Hierarchical VQ-VAE](https://arxiv.org/pdf/2103.10022.pdf) Diverse Image Inpainting (刘东，李厚强，CVPR2021)    
+[Neural Parts: Learning Expressive 3D Shape Abstractions with Invertible Neural Networks](https://arxiv.org/pdf/2103.10429.pdf)  （CVPR2021）    
 [Learning to Recommend Frame for Interactive Video Object Segmentation in the Wild](https://arxiv.org/pdf/2103.10391.pdf) 交互式视频分割 （CVPR2021）   
 [Large Scale Image Completion via Co-Modulated Generative Adversarial Networks](https://arxiv.org/pdf/2103.10428.pdf) GAN Image Completion (ICLR21)   
 [Using latent space regression to analyze and leverage compositionality in GANs](https://arxiv.org/pdf/2103.10426.pdf) 用latent space回归理解和运用的GAN组成 (ICLR21, Phillip Isola)    
