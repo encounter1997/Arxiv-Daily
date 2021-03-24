@@ -3,22 +3,28 @@ My daily arxiv reading notes
 
 
 ## CV (Daily)
+#### 20210323
+DeepViT: Towards Deeper Vision Transformer
+
+https://arxiv.org/pdf/2103.11886.pdf 
+
+
 #### 20210322
 CVPR21:  
-https://arxiv.org/pdf/2103.10571.pdf 指出perceptual loss起作用的原因不是网络预训练的权重，而是网络本身的拓扑结构，使用随机初始化的网络计算perceptual loss在语义分割、深度估计、实例分割等任务上取得良好效果（Chunhua Shen）  
-https://arxiv.org/pdf/2103.10559.pdf Compression-Driven Network Design for Frame Interpolation  
-https://arxiv.org/pdf/2103.10814.pdf an Unsupervised Aligned Keypoint Detector （卢策吾）  
-https://arxiv.org/pdf/2103.10663.pdf 医学诊断  
-https://arxiv.org/pdf/2103.10681.pdf 将superpixel segmentation看作lifelong clustering task，提出一个CNN-based superpixel segmentation方法  
-https://arxiv.org/pdf/2103.10621.pdf 低光照图像增强  
-https://arxiv.org/pdf/2103.10583.pdf 用Dynamic Network做Multi-Source Domain Adaptation  
-https://arxiv.org/pdf/2103.10895.pdf 下水道缺陷检测benchmark  
+[Generic Perceptual Loss for Modeling Structured Output Dependencies](https://arxiv.org/pdf/2103.10571.pdf) 指出perceptual loss起作用的原因不是网络预训练的权重，而是网络本身的拓扑结构，使用随机初始化的网络计算perceptual loss在语义分割、深度估计、实例分割等任务上取得良好效果（Chunhua Shen）  
+[CDFI: Compression-Driven Network Design for Frame Interpolation](https://arxiv.org/pdf/2103.10559.pdf) Compression-Driven Network Design for Frame Interpolation  
+[Skeleton Merger: an Unsupervised Aligned Keypoint Detector](https://arxiv.org/pdf/2103.10814.pdf) an Unsupervised Aligned Keypoint Detector （卢策吾）  
+[XProtoNet: Diagnosis in Chest Radiography with Global and Local Explanations](https://arxiv.org/pdf/2103.10663.pdf) 医学诊断  
+[Learning the Superpixel in a Non-iterative and Lifelong Manner](https://arxiv.org/pdf/2103.10681.pdf) 将superpixel segmentation看作lifelong clustering task，提出一个CNN-based superpixel segmentation方法  
+[Degrade is Upgrade: Learning Degradation for Low-light Image Enhancement](https://arxiv.org/pdf/2103.10621.pdf) 低光照图像增强  
+[Dynamic Transfer for Multi-Source Domain Adaptation](https://arxiv.org/pdf/2103.10583.pdf) 用Dynamic Network做Multi-Source Domain Adaptation  
+[Sewer-ML: A Multi-Label Sewer Defect Classification Dataset and Benchmark](https://arxiv.org/pdf/2103.10895.pdf) 下水道缺陷检测benchmark  
 
 Vision Transofomer：  
-https://arxiv.org/ftp/arxiv/papers/2103/2103.10480.pdf 多模态预训练模型的对抗鲁棒性（主要基于CLIP做研究）  
-https://arxiv.org/pdf/2103.10504.pdf Transformers for 3D Medical Image Segmentation  
-https://arxiv.org/pdf/2103.10455.pdf pure transformer做3D Human Pose Estimation  
-https://arxiv.org/pdf/2103.10574.pdf transformer做Spatiotemporal Reasoning（ICLR21）  
+[Reading Isn't Believing: Adversarial Attacks On Multi-Modal Neurons](https://arxiv.org/ftp/arxiv/papers/2103/2103.10480.pdf) 多模态预训练模型的对抗鲁棒性（主要基于CLIP做研究）  
+[UNETR: Transformers for 3D Medical Image Segmentation](https://arxiv.org/pdf/2103.10504.pdf) Transformers for 3D Medical Image Segmentation  
+[3D Human Pose Estimation with Spatial and Temporal Transformers](https://arxiv.org/pdf/2103.10455.pdf) pure transformer做3D Human Pose Estimation  
+[Hopper: Multi-hop Transformer for Spatiotemporal Reasoning](https://arxiv.org/pdf/2103.10574.pdf) transformer做Spatiotemporal Reasoning（ICLR21）  
 https://arxiv.org/pdf/2103.10619.pdf 指出ViT ，DeiT在整个inference过程中使用固定长度的sequence可能是冗余的，提出Hierarchical Visual Transformer (HVT)，采用类似CNN池化的方式对sequence长度做下采样，并对depth/width/resolution/patch size等维度做scaling。发现平均池化做全局信息聚合的判别性好于cls token  
 https://arxiv.org/pdf/2103.10697.pdf ConViT 提出gated positional self-attention (GPSA)，以一种“soft”的方式在vision transformer中引入CNN的inductive bias  
 https://arxiv.org/pdf/2103.10699.pdf 用transformer做text to video Retrieval  
