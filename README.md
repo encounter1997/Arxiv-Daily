@@ -4,9 +4,16 @@ My daily arxiv reading notes
 
 ## CV (Daily)
 #### 20210323
-DeepViT: Towards Deeper Vision Transformer
 
-https://arxiv.org/pdf/2103.11886.pdf 
+
+
+
+[Transformer Meets Tracker: Exploiting Temporal Context for Robust Visual Tracking](https://arxiv.org/pdf/2103.11681.pdf) 将transformer运用到vision tracking任务上，将transformer的encoder和decoder分解为两个平行的分支，嵌入一个Siamese-like tracking pipelines（周文罡，李厚强）  
+[DeepViT: Towards Deeper Vision Transformer](https://arxiv.org/pdf/2103.11886.pdf) 指出ViT不能像CNN那样通过增加深度提升性能(the attention collapse issue)，并基于以上观察提出Re-attention，重新生成具有多样性的attention map（Jiashi Feng）   
+[Incorporating Convolution Designs into Visual Transformers](https://arxiv.org/pdf/2103.11816.pdf) Convolution-enhanced image Transformer (CeiT)将CNN设计理念引入ViT，提出（1）Image-to-Tokens (I2T) module that extracts patches from generated low-level features（2）Locally-enhanced Feed-Forward (LeFF)提升相邻token之间的关联性（3）Layer-wise Class token Attention (LCA)，提升ViT性能和训练速度。（刘子纬）  
+[Multimodal Motion Prediction with Stacked Transformers](https://arxiv.org/pdf/2103.11624.pdf) transformer做Multimodal Motion Prediction（交通流预测）（周博磊）  
+[Learning Multi-Scene Absolute Pose Regression with Transformers](https://arxiv.org/pdf/2103.11468.pdf) transformer做Multi-Scene Absolute Pose Regression（从采集的图片上判断相机的位置和朝向）  
+
 
 
 #### 20210322
