@@ -3,6 +3,20 @@ My daily arxiv reading notes
 
 
 ## CV (Daily)
+#### 20210324
+CVPR21：
+[Lifelong Person Re-Identification via Adaptive Knowledge Accumulation](https://arxiv.org/pdf/2103.12462.pdf) 提出lifelong person re-identification任务，要求模型在多个域上持续学习，并能泛化到没见过的域上。提出研究此问题的数据集和针对性的解决方案Adaptive Knowledge Accumulation framework. [code](https://github.com/TPCD/LifelongReID)  
+[Group-aware Label Transfer for Domain Adaptive Person Re-identification](https://arxiv.org/pdf/2103.12366.pdf) 
+[Transferable Semantic Augmentation for Domain Adaptation](https://arxiv.org/pdf/2103.12562.pdf) 语义增强做域适应（王雨霖） [code](https://github.com/BIT-DA/TSA)    
+[MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition](https://arxiv.org/pdf/2103.12579.pdf) 语义增强做长尾识别（王雨霖） [code](https://github.com/BIT-DA/MetaSAug)   
+
+其他：
+[Learning without Seeing nor Knowing: Towards Open Zero-Shot Learning](https://arxiv.org/pdf/2103.12437.pdf) 
+[BossNAS: Exploring Hybrid CNN-transformers with Block-wisely Self-supervised Neural Architecture Search](https://arxiv.org/pdf/2103.12424.pdf)  
+[Global Correlation Network: End-to-End Joint Multi-Object Detection and Tracking](https://arxiv.org/pdf/2103.12511.pdf)   
+[End-to-End Trainable Multi-Instance Pose Estimation with Transformers](https://arxiv.org/pdf/2103.12115.pdf)  
+
+
 #### 20210323
 
 
