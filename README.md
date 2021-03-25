@@ -66,16 +66,16 @@ Vision Transofomer：
 * [UNETR: Transformers for 3D Medical Image Segmentation](https://arxiv.org/pdf/2103.10504.pdf) Transformers for 3D Medical Image Segmentation  
 * [3D Human Pose Estimation with Spatial and Temporal Transformers](https://arxiv.org/pdf/2103.10455.pdf) pure transformer做3D Human Pose Estimation  
 * [Hopper: Multi-hop Transformer for Spatiotemporal Reasoning](https://arxiv.org/pdf/2103.10574.pdf) transformer做Spatiotemporal Reasoning（ICLR21）  
-* https://arxiv.org/pdf/2103.10619.pdf 指出ViT ，DeiT在整个inference过程中使用固定长度的sequence可能是冗余的，提出Hierarchical Visual Transformer (HVT)，采用类似CNN池化的方式对sequence长度做下采样，并对depth/width/resolution/patch size等维度做scaling。发现平均池化做全局信息聚合的判别性好于cls token  
-* https://arxiv.org/pdf/2103.10697.pdf ConViT 提出gated positional self-attention (GPSA)，以一种“soft”的方式在vision transformer中引入CNN的inductive bias  
-* https://arxiv.org/pdf/2103.10699.pdf 用transformer做text to video Retrieval  
+* [Scalable Visual Transformers with Hierarchical Pooling](https://arxiv.org/pdf/2103.10619.pdf) 指出ViT ，DeiT在整个inference过程中使用固定长度的sequence可能是冗余的，提出Hierarchical Visual Transformer (HVT)，采用类似CNN池化的方式对sequence长度做下采样，并对depth/width/resolution/patch size等维度做scaling。发现平均池化做全局信息聚合的判别性好于cls token  
+* [ConViT: Improving Vision Transformers with Soft Convolutional Inductive Biases](https://arxiv.org/pdf/2103.10697.pdf) ConViT 提出gated positional self-attention (GPSA)，以一种“soft”的方式在vision transformer中引入CNN的inductive bias  
+* [MDMMT: Multidomain Multimodal Transformer for Video Retrieval](https://arxiv.org/pdf/2103.10699.pdf) 用transformer做text to video Retrieval  
 
 其他：  
-* https://arxiv.org/pdf/2103.10919.pdf Robustness via Cross-Domain Ensembles基不确定度于对多个域上的输出做ensemble提升模型鲁棒性   
-* https://arxiv.org/pdf/2103.10951.pdf Paint by Word：用word引导inpainting内容  
-* https://arxiv.org/pdf/2103.10609.pdf Boosting Adversarial Transferability through Enhanced Momentum（胡瀚，王井东）  
-* https://arxiv.org/pdf/2103.10773.pdf 提出UniMoCo，将无监督、半监督和全监督任务结合，基于MoCo做表征学习  
-* https://arxiv.org/pdf/2103.10702.pdf 提出一种top-down方法做Text-based Video Segmentation（杨易）  
+* [Robustness via Cross-Domain Ensembles](https://arxiv.org/pdf/2103.10919.pdf) Robustness via Cross-Domain Ensembles基不确定度于对多个域上的输出做ensemble提升模型鲁棒性   
+* [Paint by Word](https://arxiv.org/pdf/2103.10951.pdf) 用word引导inpainting内容  
+* [Boosting Adversarial Transferability through Enhanced Momentum](https://arxiv.org/pdf/2103.10609.pdf) （胡瀚，王井东）  
+* [UniMoCo: Unsupervised, Semi-Supervised and Full-Supervised Visual Representation Learning](https://arxiv.org/pdf/2103.10773.pdf) 提出UniMoCo，将无监督、半监督和全监督任务结合，基于MoCo做表征学习  
+* [ClawCraneNet: Leveraging Object-level Relation for Text-based Video Segmentation](https://arxiv.org/pdf/2103.10702.pdf) 提出一种top-down方法做Text-based Video Segmentation（杨易）  
 
 #### 20210319
 * [Generating Diverse Structure for Image Inpainting With Hierarchical VQ-VAE](https://arxiv.org/pdf/2103.10022.pdf) Diverse Image Inpainting (刘东，李厚强，CVPR2021)    
@@ -101,113 +101,113 @@ Vision Transofomer：
 
 #### 20210318
 CVPR21：  
-* https://arxiv.org/pdf/2103.09458.pdf 做Dynamic Time Warping（视频summary）  
-* https://arxiv.org/pdf/2103.09460.pdf YOLOF：You Only Look One-level Feature，提出FPN的成功来自于其divide-and-conquer的设计，而非多尺度特征融合。YOLOF采用Dilated Encoder和Uniform Matching（孙剑，张祥宇）  
+* [Learning Discriminative Prototypes with Dynamic Time Warping](https://arxiv.org/pdf/2103.09458.pdf) 做Dynamic Time Warping（视频summary）  
+* [You Only Look One-level Feature](https://arxiv.org/pdf/2103.09460.pdf) YOLOF提出FPN的成功来自于其divide-and-conquer的设计，而非多尺度特征融合。YOLOF采用Dilated Encoder和Uniform Matching（孙剑，张祥宇）   
 
 其他：  
-* https://arxiv.org/pdf/2103.09377.pdf Multi-Prize Lottery Ticket Hypothesis，在Lottery Ticket Hypothesis基础上提出另外两个假设，实现Binary Neural Networks剪枝（ICLR21）  
-* https://arxiv.org/pdf/2103.09742.pdf 在GAN中引入对比学习（ICLR21）  
-* https://arxiv.org/ftp/arxiv/papers/2103/2103.09265.pdf 生物启发鲁棒性综述  
-* https://arxiv.org/pdf/2103.09396.pdf GAN近期发展综述  
-* https://arxiv.org/pdf/2103.08784.pdf vision language预训练，替换耗时的跨模态attention，实现快速Image-Text Retrieval （NAACL）  
-* https://arxiv.org/pdf/2103.09488.pdf 探讨如何对目标检测中分类损失和定位损失做合适的加权，提出Adaptive Loss Weight Adjustment(ALWA)，在训练过程中根据各损失的统计特性自适应调整损失权重  
-* https://arxiv.org/pdf/2103.09669.pdf 在zero-shot learning（ZSL）中加入丰富的文本描述，显著提升ZSL性能（NAACL）  
-* https://arxiv.org/pdf/2103.09697.pdf 对比学习和图像翻译结合做水下图像增强  
-* https://arxiv.org/pdf/2103.09712.pdf transformer做医学手术阶段识别  
-* https://arxiv.org/pdf/2103.09455.pdf 视频压缩和超分，以实现高效的数据传输  
-* https://arxiv.org/pdf/2103.09479.pdf Disentangled Cycle Consistency for Highly-realistic Virtual Try-On（Ping Luo）  
-* https://arxiv.org/pdf/2103.09504.pdf 做Spatiotemporal Predictive Learning（视频帧预测）（龙明盛）  
+* [Multi-Prize Lottery Ticket Hypothesis: Finding Accurate Binary Neural Networks by Pruning A Randomly Weighted Network](https://arxiv.org/pdf/2103.09377.pdf) Multi-Prize Lottery Ticket Hypothesis，在Lottery Ticket Hypothesis基础上提出另外两个假设，实现Binary Neural Networks剪枝（ICLR21）  
+* [Training GANs with Stronger Augmentations via Contrastive Discriminator](https://arxiv.org/pdf/2103.09742.pdf) 在GAN中引入对比学习（ICLR21）  
+* [Bio-inspired Robustness: A Review](https://arxiv.org/ftp/arxiv/papers/2103/2103.09265.pdf) 生物启发鲁棒性综述  
+* [Pros and Cons of GAN Evaluation Measures: New Developments](https://arxiv.org/pdf/2103.09396.pdf) GAN近期发展综述  
+* [LightningDOT: Pre-training Visual-Semantic Embeddings for Real-Time Image-Text Retrieval](https://arxiv.org/pdf/2103.08784.pdf) vision language预训练，替换耗时的跨模态attention，实现快速Image-Text Retrieval （NAACL）  
+* [Revisiting the Loss Weight Adjustment in Object Detection](https://arxiv.org/pdf/2103.09488.pdf) 探讨如何对目标检测中分类损失和定位损失做合适的加权，提出Adaptive Loss Weight Adjustment(ALWA)，在训练过程中根据各损失的统计特性自适应调整损失权重  
+* [Large-Scale Zero-Shot Image Classification from Rich and Diverse Textual Descriptions](https://arxiv.org/pdf/2103.09669.pdf) 在zero-shot learning（ZSL）中加入丰富的文本描述，显著提升ZSL性能（NAACL）  
+* [Single Underwater Image Restoration by Contrastive Learning](https://arxiv.org/pdf/2103.09697.pdf) 对比学习和图像翻译结合做水下图像增强  
+* [Trans-SVNet: Accurate Phase Recognition from Surgical Videos via Hybrid Embedding Aggregation Transformer](https://arxiv.org/pdf/2103.09712.pdf) transformer做医学手术阶段识别  
+* [Prediction-assistant Frame Super-Resolution for Video Streaming](https://arxiv.org/pdf/2103.09455.pdf) 视频压缩和超分，以实现高效的数据传输  
+* [Disentangled Cycle Consistency for Highly-realistic Virtual Try-On](https://arxiv.org/pdf/2103.09479.pdf) Disentangled Cycle Consistency for Highly-realistic Virtual Try-On（Ping Luo）  
+* [PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning](https://arxiv.org/pdf/2103.09504.pdf) 做Spatiotemporal Predictive Learning（视频帧预测）（龙明盛）  
 
 
 #### 20210317
 CVPR21：  
-* https://arxiv.org/pdf/2103.09096.pdf 提出Frequency-aware特征学习和新的损失函数做Face Forgery Detection（Yongdong Zhang）  
-* https://arxiv.org/pdf/2103.08907.pdf 弱监督实例分割  
-* https://arxiv.org/pdf/2103.08896.pdf 弱监督语义分割  
-* https://arxiv.org/pdf/2103.08808.pdf Multi-Object Tracking  
+* [Frequency-aware Discriminative Feature Learning Supervised by Single-Center Loss for Face Forgery Detection](https://arxiv.org/pdf/2103.09096.pdf) 提出Frequency-aware特征学习和新的损失函数做Face Forgery Detection（Yongdong Zhang）  
+* [BBAM: Bounding Box Attribution Map for Weakly Supervised Semantic and Instance Segmentation](https://arxiv.org/pdf/2103.08907.pdf) 弱监督实例分割  
+* [Anti-Adversarially Manipulated Attributions for Weakly and Semi-Supervised Semantic Segmentation](https://arxiv.org/pdf/2103.08896.pdf) 弱监督语义分割  
+* [Track to Detect and Segment: An Online Multi-Object Tracker](https://arxiv.org/pdf/2103.08808.pdf) Multi-Object Tracking  
 
 其他：  
-* https://arxiv.org/pdf/2103.08849.pdf 多语言的vision language预训练模型（NAACL）  
-* https://arxiv.org/pdf/2103.09108.pdf 探讨ImageNet预训练CNN的泛化性  
-* https://arxiv.org/pdf/2103.09118.pdf Balancing Biases and Preserving Privacy on Balanced Faces in the Wild（TPAMI，Yun Fu）  
-* https://arxiv.org/pdf/2103.09136.pdf 在FPN中加入object query提升对小物体的检测（Naiyan Wang）  
-* https://arxiv.org/pdf/2103.09013.pdf transormer做视频reid（Zhibo Chen, Xian-Sheng Hua）  
-* https://arxiv.org/pdf/2103.08863.pdf 跨域人脸超分辨（杨易）  
-* https://arxiv.org/pdf/2103.09030.pdf 电梯按钮识别数据集  
+* [Multilingual Multimodal Pre-training for Zero-Shot Cross-Lingual Transfer of Vision-Language Models](https://arxiv.org/pdf/2103.08849.pdf) 多语言的vision language预训练模型（NAACL）  
+* [Is it Enough to Optimize CNN Architectures on ImageNet?](https://arxiv.org/pdf/2103.09108.pdf) 探讨ImageNet预训练CNN的泛化性  
+* [Balancing Biases and Preserving Privacy on Balanced Faces in the Wild](https://arxiv.org/pdf/2103.09118.pdf)（TPAMI，Yun Fu）  
+* [QueryDet: Cascaded Sparse Query for Accelerating High-Resolution Small Object Detection](https://arxiv.org/pdf/2103.09136.pdf) 在FPN中加入object query提升对小物体的检测（Naiyan Wang）  
+* [Dense Interaction Learning for Video-based Person Re-identification](https://arxiv.org/pdf/2103.09013.pdf) transormer做视频reid（Zhibo Chen, Xian-Sheng Hua）  
+* [Super-Resolving Cross-Domain Face Miniatures by Peeking at One-Shot Exemplar](https://arxiv.org/pdf/2103.08863.pdf) 跨域人脸超分辨（杨易）  
+* [A Large-Scale Dataset for Benchmarking Elevator Button Segmentation and Character Recognition](https://arxiv.org/pdf/2103.09030.pdf) 电梯按钮识别数据集  
 
 
 #### 20210316
 CVPR21：  
-* https://arxiv.org/pdf/2103.08214.pdf 指出并应对HOI中的长尾分布问题（侯志）  
-* https://arxiv.org/pdf/2103.08468.pdf 从回声和RGB图像中预测深度（多模态）  
-* https://arxiv.org/pdf/2103.07939.pdf 半监督视频去雨  
-* https://arxiv.org/pdf/2103.07893.pdf 对比学习提升条件GAN图像合成的多样性（CHHK）  
-* https://arxiv.org/pdf/2103.07941.pdf 交互式视频分割  
-* https://arxiv.org/pdf/2103.07733.pdf Rotation-equivariant Detector for Aerial Object Detection  
-* https://arxiv.org/pdf/2103.07531.pdf 基于不确定度评估做single domain generalization  
-* https://arxiv.org/pdf/2103.07503.pdf 人脸识别域泛化（Yi-Hsuan Tsai）  
-* https://arxiv.org/pdf/2103.08273.pdf 采用类似BiFPN的连接方式做知识蒸馏  
+* [Detecting Human-Object Interaction via Fabricated Compositional Learning](https://arxiv.org/pdf/2103.08214.pdf) 指出并应对HOI中的长尾分布问题（侯志，陶老师）  
+* [Beyond Image to Depth: Improving Depth Prediction using Echoes](https://arxiv.org/pdf/2103.08468.pdf) 从回声和RGB图像中预测深度（多模态）  
+* [Semi-Supervised Video Deraining with Dynamic Rain Generator](https://arxiv.org/pdf/2103.07939.pdf) 半监督视频去雨  
+* [DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network](https://arxiv.org/pdf/2103.07893.pdf) 对比学习提升条件GAN图像合成的多样性（CHHK）  
+* [Modular Interactive Video Object Segmentation: Interaction-to-Mask, Propagation and Difference-Aware Fusion](https://arxiv.org/pdf/2103.07941.pdf) 交互式视频分割  
+* [ReDet: A Rotation-equivariant Detector for Aerial Object Detection](https://arxiv.org/pdf/2103.07733.pdf) Rotation-equivariant Detector for Aerial Object Detection  
+* [Uncertainty-guided Model Generalization to Unseen Domains](https://arxiv.org/pdf/2103.07531.pdf) 基于不确定度评估做single domain generalization  
+* [Cross-Domain Similarity Learning for Face Recognition in Unseen Domains](https://arxiv.org/pdf/2103.07503.pdf) 人脸识别域泛化（Yi-Hsuan Tsai）  
+* [Refine Myself by Teaching Myself : Feature Refinement via Self-Knowledge Distillation](https://arxiv.org/pdf/2103.08273.pdf) 采用类似BiFPN的连接方式做知识蒸馏  
 
 其他：  
-* https://arxiv.org/pdf/2103.07976.pdf transformer细粒度分类（Alan Yuille组）  
-* https://arxiv.org/pdf/2103.07579.pdf Revisiting ResNets: Improved Training and Scaling Strategies，改进resnet，以更快的推理速度取得和EfficientNet相当的性能（Tsung-Yi Lin）  
-* https://arxiv.org/pdf/2103.07751.pdf GAN做图像变换（周博磊组）  
-* https://arxiv.org/pdf/2103.08357.pdf Frequency-aware Dynamic Network for Efficient Super-Resolution （王云鹤）  
+* [TransFG: A Transformer Architecture for Fine-grained Recognition](https://arxiv.org/pdf/2103.07976.pdf) transformer细粒度分类（Alan Yuille组）  
+* [Revisiting ResNets: Improved Training and Scaling Strategies](https://arxiv.org/pdf/2103.07579.pdf) 改进resnet，以更快的推理速度取得和EfficientNet相当的性能（Tsung-Yi Lin）  
+* [Unsupervised Image Transformation Learning via Generative Adversarial Networks](https://arxiv.org/pdf/2103.07751.pdf) GAN做图像变换（周博磊组）  
+* [Learning Frequency-aware Dynamic Network for Efficient Super-Resolution](https://arxiv.org/pdf/2103.08357.pdf) Frequency-aware Dynamic Network for Efficient Super-Resolution （王云鹤）  
 
 
 #### 20210312
 CVPR21：  
-* https://arxiv.org/pdf/2103.06879.pdf CoMoGAN做连续图像翻译  
-* https://arxiv.org/pdf/2103.06877.pdf FAIR组对标谷歌efficientnet，指出现有模型scaling方法只考虑准确率和计算量，忽视了实际的运行时间。通过限制网络的activation数目，实现Fast and Accurate Model Scaling  
-* https://arxiv.org/pdf/2103.06342.pdf 持续学习语义分割  
+* [CoMoGAN: continuous model-guided image-to-image translation](https://arxiv.org/pdf/2103.06879.pdf) CoMoGAN做连续图像翻译  
+* [Fast and Accurate Model Scaling](https://arxiv.org/pdf/2103.06877.pdf) FAIR组对标谷歌efficientnet，指出现有模型scaling方法只考虑准确率和计算量，忽视了实际的运行时间。通过限制网络的activation数目，实现Fast and Accurate Model Scaling  
+* [Continual Semantic Segmentation via Repulsion-Attraction of Sparse and Disentangled Latent Representations](https://arxiv.org/pdf/2103.06342.pdf) 持续学习语义分割  
 
 其他：  
-* https://arxiv.org/pdf/2103.06561.pdf 人大、中科院大型vision language预训练模型WenLan，对标CLIP  
-* https://arxiv.org/pdf/2103.06501.pdf 基于自监督图像解耦的雾天图像合成  
+* [WenLan: Bridging Vision and Language by Large-Scale Multi-Modal Pre-Training](https://arxiv.org/pdf/2103.06561.pdf) 人大、中科院大型vision language预训练模型WenLan，对标CLIP  
+* [Level-aware Haze Image Synthesis by Self-Supervised Content-Style Disentanglement](https://arxiv.org/pdf/2103.06501.pdf) 基于自监督图像解耦的雾天图像合成  
 
 
 #### 20210311
 CVPR21:  
-* https://arxiv.org/pdf/2103.06255.pdf 内卷网络（self-attention变种）  
-* https://arxiv.org/pdf/2103.06122.pdf 能应对dense prediction task的对比学习方法  
-* https://arxiv.org/pdf/2103.05983.pdf HOI transformer  
-* https://arxiv.org/pdf/2103.05950.pdf 对比学习做few shot目标检测  
-* https://arxiv.org/pdf/2103.05905.pdf VideoMoCo对比学习做视频任务  
-* https://arxiv.org/pdf/2103.05687.pdf 用attention做广角镜头下的语义分割  
-* https://arxiv.org/pdf/2103.05863.pdf AutoAugmentation升级版，能处理噪声数据  
+* [Involution: Inverting the Inherence of Convolution for Visual Recognition](https://arxiv.org/pdf/2103.06255.pdf) 内卷网络（self-attention变种）  
+* [Spatially Consistent Representation Learning](https://arxiv.org/pdf/2103.06122.pdf) 能应对dense prediction task的对比学习方法  
+* [Reformulating HOI Detection as Adaptive Set Prediction](https://arxiv.org/pdf/2103.05983.pdf) HOI transformer  
+* [FSCE: Few-Shot Object Detection via Contrastive Proposal Encoding](https://arxiv.org/pdf/2103.05950.pdf) 对比学习做few shot目标检测  
+* [VideoMoCo: Contrastive Video Representation Learning with Temporally Adversarial Examples](https://arxiv.org/pdf/2103.05905.pdf) VideoMoCo对比学习做视频任务  
+* [Capturing Omni-Range Context for Omnidirectional Segmentation](https://arxiv.org/pdf/2103.05687.pdf) 用attention做广角镜头下的语义分割  
+* [AutoDO: Robust AutoAugment for Biased Data with Label Noise via Scalable Probabilistic Implicit Differentiation](https://arxiv.org/pdf/2103.05863.pdf) AutoAugmentation升级版，能处理噪声数据  
 
 其他：
-* https://arxiv.org/pdf/2103.06175.pdf 回归域适应关键点检测（龙明盛组）  
-* https://arxiv.org/pdf/2103.06104.pdf UNet Transformer  
+* [Regressive Domain Adaptation for Unsupervised Keypoint Detection](https://arxiv.org/pdf/2103.06175.pdf) 回归域适应关键点检测（龙明盛组）  
+* [U-Net Transformer: Self and Cross Attention for Medical Image Segmentation](https://arxiv.org/pdf/2103.06104.pdf) UNet Transformer  
 
 
 #### 20210310
 CVPR2021：  
-* https://arxiv.org/pdf/2103.05254.pdf 语义分割域适应  
-* https://arxiv.org/pdf/2103.05346.pdf 3D目标检测域适应  
-* https://arxiv.org/pdf/2103.05471.pdf contrastive NAS  
+* [MetaCorrection: Domain-aware Meta Loss Correction for Unsupervised Domain Adaptation in Semantic Segmentation](https://arxiv.org/pdf/2103.05254.pdf) 语义分割域适应  
+* [ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection](https://arxiv.org/pdf/2103.05346.pdf) 3D目标检测域适应  
+* [Contrastive Neural Architecture Search with Neural Architecture Comparators](https://arxiv.org/pdf/2103.05471.pdf) contrastive NAS  
 
 其他：  
-* https://arxiv.org/pdf/2103.05423.pdf 3D语义分割综述  
+* [Deep Learning based 3D Segmentation: A Survey](https://arxiv.org/pdf/2103.05423.pdf) 3D语义分割综述  
 
 
 #### 20210309
 CVPR21：  
-* https://arxiv.org/pdf/2103.04717.pdf multi-source语义分割域适应  
-* https://arxiv.org/pdf/2103.04705.pdf 半监督语义分割域适应  
-* https://arxiv.org/pdf/2103.04224.pdf 目标检测域适应  
-* https://arxiv.org/pdf/2103.04503.pdf human object interaction transformer  
+* [Multi-Source Domain Adaptation with Collaborative Learning for Semantic Segmentation](https://arxiv.org/pdf/2103.04717.pdf) multi-source语义分割域适应  
+* [Semi-supervised Domain Adaptation based on Dual-level Domain Mixing for Semantic Segmentation](https://arxiv.org/pdf/2103.04705.pdf) 半监督语义分割域适应  
+* [MeGA-CDA: Memory Guided Attention for Category-Aware Unsupervised Domain Adaptive Object Detection](https://arxiv.org/pdf/2103.04224.pdf) 目标检测域适应  
+* [End-to-End Human Object Interaction Detection with HOI Transformer](https://arxiv.org/pdf/2103.04503.pdf) human object interaction transformer  
 
 其他：  
-* https://arxiv.org/pdf/2103.04814.pdf 自监督目标检测  
-* https://arxiv.org/pdf/2103.04037.pdf 探讨多模态transformer  
-* https://arxiv.org/pdf/2103.04430.pdf 医学分割transformer  
+* [Unsupervised Pretraining for Object Detection by Patch Reidentification](https://arxiv.org/pdf/2103.04814.pdf) 自监督目标检测  
+* [Perspectives and Prospects on Transformer Architecture for Cross-Modal Tasks with Language and Vision](https://arxiv.org/pdf/2103.04037.pdf) 探讨多模态transformer  
+* [TransBTS: Multimodal Brain Tumor Segmentation Using Transformer](https://arxiv.org/pdf/2103.04430.pdf) 医学分割transformer  
 
 #### 20210302
-* https://arxiv.org/pdf/2103.01209.pdf transformer GAN  
-* https://arxiv.org/pdf/2103.01075.pdf OmniNet让transformer能够建模网络不同层特征的全局信息，在cv和nlp任务上均有效  
-* https://arxiv.org/pdf/2103.00776.pdf 用transformer做Single-Shot Motion Completion  
-* https://arxiv.org/pdf/2103.00112.pdf Transformer in Transformer 基于vit，用一个inner transformer建模pixel级别的特征表示  
+* [Generative Adversarial Transformers](https://arxiv.org/pdf/2103.01209.pdf) transformer GAN  
+* [OmniNet: Omnidirectional Representations from Transformers](https://arxiv.org/pdf/2103.01075.pdf) OmniNet让transformer能够建模网络不同层特征的全局信息，在cv和nlp任务上均有效  
+* [Single-Shot Motion Completion with Transformer](https://arxiv.org/pdf/2103.00776.pdf) 用transformer做Single-Shot Motion Completion  
+* [Transformer in Transformer](https://arxiv.org/pdf/2103.00112.pdf) 基于vit，用一个inner transformer建模pixel级别的特征表示  
 
 
 ## NLP (Weekly)
