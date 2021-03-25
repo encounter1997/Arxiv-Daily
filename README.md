@@ -3,6 +3,28 @@ My daily arxiv reading notes
 
 
 ## CV (Daily)
+#### 20210325
+CVPR21: 
+* [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/pdf/2103.13164.pdf) 1. feature mismatching -> shape alignment, center alignment  2. global information -> asymmetric non-local attention  
+* [Temporal Context Aggregation Network for Temporal Action Proposal Refinement](https://arxiv.org/pdf/2103.13141.pdf) Temporal action proposal generation aims to estimate temporal intervals of actions in untrimmed videos.  
+* [Learning Salient Boundary Feature for Anchor-free Temporal Action Localization](https://arxiv.org/pdf/2103.13137.pdf) Temporal action localization aims at inferring both the action category and localization of the start and end frame for each action instance in a long, untrimmed video.  
+* [Revamping Cross-Modal Recipe Retrieval with Hierarchical Transformers and Self-supervised Learning](https://arxiv.org/pdf/2103.13061.pdf) Cross-modal recipe retrieval,包含image-to-recipe和recipe-to-image, recipe is in text. [code](https://github.com/amzn/image-to-recipe-transformers)  
+* [Coarse-to-Fine Domain Adaptive Semantic Segmentation with Photometric Alignment and Category-Center Regularization](https://arxiv.org/pdf/2103.13041.pdf) 认为domain shift主要发生在image-level和category-level两个层面，并分别提出a photometric alignment module和a category-oriented triplet loss for source, a self-supervised consistency regularization for target  
+* [From Shadow Generation to Shadow Removal](https://arxiv.org/pdf/2103.12997.pdf) Follow现有low-level使用图像翻译方法这一大方向，训练不需要shadow free image。  
+* [Relation-aware Instance Refinement for Weakly Supervised Visual Grounding](https://arxiv.org/pdf/2103.12989.pdf) Visual grounding, which aims to build a correspondence between visual objects and their language entities.  
+* [Scene-Intuitive Agent for Remote Embodied Visual Grounding](https://arxiv.org/pdf/2103.12944.pdf) an agent that mimics human behaviors: The agent learns where to stop in the Scene Grounding task and what to attend to in the Object Grounding task respectively.  
+* [Efficient Regional Memory Network for Video Object Segmentation](https://arxiv.org/pdf/2103.12934.pdf) Regional Memory Network: a novel local-to-local matching solution for semi-supervised VOS   
+* [Weakly Supervised Instance Segmentation for Videos with Temporal Mask Consistency](https://arxiv.org/pdf/2103.12886.pdf) Problems in weakly supervised instance segmentation:(a) partial segmentation of objects and (b) missing object predictions. We are the first to explore the use of these video signals to tackle weakly supervised instance segmentation. Keys: 1. inter-pixel relation network 2. MaskConsist module (Alan Yuille)   
+* [Convex Online Video Frame Subset Selection using Multiple Criteria for Data Efficient Autonomous Driving](https://arxiv.org/pdf/2103.13021.pdf) 自动驾驶  
+* [Dynamic Slimmable Network](https://arxiv.org/pdf/2103.13258.pdf) Problem: dynamic sparse patterns on convolutional filters fail to achieve actual acceleration in real-world implementation, due to the extra burden of indexing, weight-copying, or zero-masking. Method: 1. double-headed dynamic gate that comprises an attention head and a slimming head 2. a disentangled two-stage training scheme inspired by one-shot NAS  
+* [Affective Processes: stochastic modelling of temporal context for emotion and facial expression recognition](https://arxiv.org/pdf/2103.13372.pdf)
+* [Structure-Aware Face Clustering on a Large-Scale Graph with 10^7 Nodes](https://arxiv.org/pdf/2103.13225.pdf)
+* [The Blessings of Unlabeled Background in Untrimmed Videos](https://arxiv.org/pdf/2103.13183.pdf) 因果推断做Weakly-supervised Temporal Action Localization. While previous works treat the background as “curses”, we consider it as “blessings” (Hanwang Zhang)  
+
+其他：
+* [Can Vision Transformers Learn without Natural Images?](https://arxiv.org/pdf/2103.13023.pdf) 
+
+
 #### 20210324
 CVPR21：
 [Lifelong Person Re-Identification via Adaptive Knowledge Accumulation](https://arxiv.org/pdf/2103.12462.pdf) 提出lifelong person re-identification任务，要求模型在多个域上持续学习，并能泛化到没见过的域上。提出研究此问题的数据集和针对性的解决方案Adaptive Knowledge Accumulation framework. [code](https://github.com/TPCD/LifelongReID)  
