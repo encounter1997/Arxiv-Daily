@@ -3,6 +3,26 @@ My daily arxiv reading notes
 
 
 ## CV (Daily)
+#### 20210326
+TOP
+* [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/pdf/2103.14030.pdf) a hierarchical Transformer whose representation is computed with shifted windows. This hierarchical architecture has the flexibility to model at various scales and has linear computational complexity with respect to image size. BOOM RESULTS. [code](https://github.com/microsoft/Swin-Transformer) (Han Hu, Yue Cao, Stephen Lin et al)     
+* [High-Fidelity Pluralistic Image Completion with Transformers](https://arxiv.org/pdf/2103.14031.pdf) This paper brings the best of both worlds to pluralistic image completion: appearance prior reconstruction with transformer and texture replenishment with CNN. (Dongdong Chen)   
+* [An Image is Worth 16x16 Words, What is a Video Worth?](https://arxiv.org/pdf/2103.13915.pdf) transformer做action recognition. [code](https://github.com/Alibaba-MIIL/STAM)   
+
+CVPR21:
+* [Robust and Accurate Object Detection via Adversarial Learning](https://arxiv.org/pdf/2103.13886.pdf) This work instead augments the fine-tuning stage for object detectors by exploring adversarial examples, which can be viewed as a model-dependent data augmentation. Our method dynamically selects the stronger adversarial images sourced from a detector’s classification and localization branches and evolves with the detector to ensure the augmentation policy stays current and relevant. (Boqing Gong)   
+* [Learning Dynamic Alignment via Meta-filter for Few-shot Learning](https://arxiv.org/pdf/2103.13582.pdf)  
+* [Vectorization and Rasterization: Self-Supervised Learning for Sketch and Handwriting](https://arxiv.org/pdf/2103.13716.pdf)     
+
+Others 
+* [AutoLoss-Zero: Searching Loss Functions from Scratch for Generic Tasks](https://arxiv.org/pdf/2103.14026.pdf) In this paper, we propose AutoLoss-Zero, the first general framework for searching loss functions from scratch for generic tasks. (Jifeng Dai, Hongsheng Li, Gao Huang, Xizhou Zhu, et al)   
+* [Contrast to Divide: Self-Supervised Pre-Training for Learning with Noisy Labels](https://arxiv.org/pdf/2103.13646.pdf)    
+* [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://arxiv.org/pdf/2103.13873.pdf)   (TPAMI)  
+* [USB: Universal-Scale Object Detection Benchmark](https://arxiv.org/pdf/2103.14027.pdf) In this paper, we introduce the UniversalScale object detection Benchmark (USB). USB has variations in object scales and image domains by incorporating COCO with the recently proposed Waymo Open Dataset and Manga109-s dataset. UniverseNets. [code](https://github.com/shinya7y/UniverseNet)  
+* [Multi-Target Domain Adaptation via Unsupervised Domain Classification for Weather Invariant Object Detection](https://arxiv.org/pdf/2103.13970.pdf) However, most existing domain adaptation methods either handle singletarget domain or require domain labels. We propose a novel unsupervised domain classification method which can be used to generalize single-target domain adaptation methods to multi-target domains, and design a weather-invariant object detector training framework based on it.  
+* [StyleLess layer: Improving robustness for real-world driving](https://arxiv.org/pdf/2103.13905.pdf)  
+* [GridDehazeNet+: An Enhanced Multi-Scale Network with Intra-Task Knowledge Transfer for Single Image Dehazing](https://arxiv.org/pdf/2103.13998.pdf) 
+
 #### 20210325
 CVPR21: 
 * [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/pdf/2103.13164.pdf) 1. feature mismatching -> shape alignment, center alignment  2. global information -> asymmetric non-local attention  
