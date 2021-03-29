@@ -3,7 +3,7 @@ My daily arxiv reading notes
 
 
 ## CV (Daily)
-#### 20210327
+#### 20210329
 CVPR21
 * [PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds](https://arxiv.org/pdf/2103.14635.pdf) 动态网络Position Adaptive Convolution (PAConv) for r 3D point cloud processing. The key of PAConv is to construct the convolution kernel by dynamically assembling basic weight matrices stored in Weight Bank, where the coefficients of these weight matrices are self-adaptively learned from point positions through ScoreNet. [code](https://github.com/CVMI-Lab/PAConv)
 * [Distilling Object Detectors via Decoupled Features](https://arxiv.org/pdf/2103.14475.pdf) 知识蒸馏做目标检测，方法采用前后景特征解耦 In this paper, we point out that the information of features derived from regions excluding objects are also essential for distilling the student detector, which is usually ignored in existing approaches.  two levels of decoupled features will be processed for embedding useful information into the student, i.e., decoupled features from neck and decoupled proposals from classification head. [code](https://github.com/ggjy/DeFeat.pytorch) (Yunhe Wang, Chang Xu)
@@ -22,9 +22,12 @@ CVPR21
 * [Lifting Transformer for 3D Human Pose Estimation in Video](https://arxiv.org/pdf/2103.14304.pdf) 
 * [Training a Better Loss Function for Image Restoration](https://arxiv.org/pdf/2103.14616.pdf) In this work, we explore the question of what makes a good loss function for an image restoration task. [code](https://github.com/gfxdisp/mdf)  TODO：参考Jifeng Dai，图像恢复loss zero？
 * [Marine Snow Removal Benchmarking Dataset](https://arxiv.org/pdf/2103.14249.pdf) low-level 水下新任务和benchmark [code](https://github.com/ychtanaka/marine-snow)
-* 
+* [DivAug: Plug-in Automated Data Augmentation with Explicit Diversity Maximization](https://arxiv.org/pdf/2103.14545.pdf)
+* [On Generating Transferable Targeted Perturbations](https://arxiv.org/pdf/2103.14641.pdf) changing an unseen model’s decisions to a specific ‘targeted’ class remains a challenging feat. In this paper, we propose a new generative approach for highly transferable targeted perturbations (TTP). [code](https://github.com/Muzammal-Naseer/TTP)
 * [Unsupervised Robust Domain Adaptation without Source Data](https://arxiv.org/pdf/2103.14577.pdf) 将Domain Adaptation without Source Data和对抗鲁棒性问题结合进行研究 This paper aims at answering the question of finding the right strategy to make the target model robust and accurate in the setting of unsupervised domain adaptation without source data. (Luc Van Gool)
 * [Geometry-Aware Unsupervised Domain Adaptation for Stereo Matching](https://arxiv.org/pdf/2103.14333.pdf) DA for Stereo Matching （期刊）
+* [Non-Salient Region Object Mining for Weakly Supervised Semantic Segmentation](https://arxiv.org/pdf/2103.14581.pdf) However, existing works mainly concentrate on expanding the seed of pseudo labels within the image’s salient region. In this work, we propose a non-salient region object mining approach for weakly supervised semantic segmentation. [code](https://github.com/NUST-Machine-Intelligence-Laboratory/nsrom)
+* [Sparse Object-level Supervision for Instance Segmentation with Pixel Embeddings](https://arxiv.org/pdf/2103.14572.pdf) 生物图像实例分割 We propose to address the dense annotation bottleneck by introducing a proposal-free segmentation approach based on non-spatial embeddings, which exploits the structure of the learned embedding space to extract individual instances in a differentiable way. [code](https://github.com/kreshuklab/spoco)
 * [Towards a Unified Approach to Single Image Deraining and Dehazing](https://arxiv.org/pdf/2103.14204.pdf) （期刊）
 * 
 
