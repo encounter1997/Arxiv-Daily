@@ -3,6 +3,32 @@ My daily arxiv reading notes
 
 
 ## CV (Daily)
+#### 20210327
+CVPR21
+* [PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds](https://arxiv.org/pdf/2103.14635.pdf) 动态网络Position Adaptive Convolution (PAConv) for r 3D point cloud processing. The key of PAConv is to construct the convolution kernel by dynamically assembling basic weight matrices stored in Weight Bank, where the coefficients of these weight matrices are self-adaptively learned from point positions through ScoreNet. [code](https://github.com/CVMI-Lab/PAConv)
+* [Distilling Object Detectors via Decoupled Features](https://arxiv.org/pdf/2103.14475.pdf) 知识蒸馏做目标检测，方法采用前后景特征解耦 In this paper, we point out that the information of features derived from regions excluding objects are also essential for distilling the student detector, which is usually ignored in existing approaches.  two levels of decoupled features will be processed for embedding useful information into the student, i.e., decoupled features from neck and decoupled proposals from classification head. [code](https://github.com/ggjy/DeFeat.pytorch) (Yunhe Wang, Chang Xu)
+* [Few-Shot Human Motion Transfer by Personalized Geometry and Texture Modeling](https://arxiv.org/pdf/2103.14338.pdf) 
+* [Confluent Vessel Trees with Accurate Bifurcations](https://arxiv.org/pdf/2103.14268.pdf)  unsupervised reconstruction of complex near-capillary vasculature with thousands of bifurcations where supervision and learning are infeasible.
+* [Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification](https://arxiv.org/pdf/2103.14267.pdf) 对比学习做长尾分类 [code](https://www.kaihan.org/HybridLT/)  (Xiu-Shen Wei)
+* [OTA: Optimal Transport Assignment for Object Detection](https://arxiv.org/pdf/2103.14259.pdf) 受到detr中label assignment的启发，提出基于optimal transport的global label assignment机制. we innovatively revisit the label assignment from a global perspective and propose to formulate the assigning procedure as an Optimal Transport (OT) problem – a well-studied topic in Optimization Theory. After formulation, finding the best assignment solution is converted to solve the optimal transport plan at minimal transportation costs, which can be solved via Sinkhorn-Knopp Iteration.  [code](https://github.com/Megvii-BaseDetection/OTA) (Jian Sun)
+* [MagDR: Mask-guided Detection and Reconstruction for Defending Deepfakes](https://arxiv.org/pdf/2103.14211.pdf)
+* [Equivariant Point Network for 3D Point Cloud Analysis](https://arxiv.org/pdf/2103.14147.pdf) In this paper, we propose an effective and practical SE(3) (3D translation and rotation) equivariant network for point cloud analysis that addresses both problems. [code](https://github.com/nintendops/EPN_PointCloud)
+* [ACRE: Abstract Causal REasoning Beyond Covariation](https://arxiv.org/pdf/2103.14232.pdf) (朱松纯)
+* [Abstract Spatial-Temporal Reasoning via Probabilistic Abduction and Execution](https://arxiv.org/pdf/2103.14230.pdf) （朱松纯）
+
+其他
+* [Understanding Robustness of Transformers for Image Classification](https://arxiv.org/pdf/2103.14586.pdf) 探索vision transformer鲁棒性 We investigate robustness to input perturbations as well as robustness to model perturbations. We find that when pre-trained with a sufficient amount of data, ViT models are at least as robust as the ResNet counterparts on a broad range of perturbations. We also find that Transformers are robust to the removal of almost any single layer, and that while activations from later layers are highly correlated with each other, they nevertheless play an important role in classification. (Google Research)
+* [COTR: Correspondence Transformer for Matching Across Images](https://arxiv.org/pdf/2103.14167.pdf) 问题设置类似Jianlong Fu, et al用transformer解决有reference的超分辨
+* [Lifting Transformer for 3D Human Pose Estimation in Video](https://arxiv.org/pdf/2103.14304.pdf) 
+* [Training a Better Loss Function for Image Restoration](https://arxiv.org/pdf/2103.14616.pdf) In this work, we explore the question of what makes a good loss function for an image restoration task. [code](https://github.com/gfxdisp/mdf)  TODO：参考Jifeng Dai，图像恢复loss zero？
+* [Marine Snow Removal Benchmarking Dataset](https://arxiv.org/pdf/2103.14249.pdf) low-level 水下新任务和benchmark [code](https://github.com/ychtanaka/marine-snow)
+* 
+* [Unsupervised Robust Domain Adaptation without Source Data](https://arxiv.org/pdf/2103.14577.pdf) 将Domain Adaptation without Source Data和对抗鲁棒性问题结合进行研究 This paper aims at answering the question of finding the right strategy to make the target model robust and accurate in the setting of unsupervised domain adaptation without source data. (Luc Van Gool)
+* [Geometry-Aware Unsupervised Domain Adaptation for Stereo Matching](https://arxiv.org/pdf/2103.14333.pdf) DA for Stereo Matching （期刊）
+* [Towards a Unified Approach to Single Image Deraining and Dehazing](https://arxiv.org/pdf/2103.14204.pdf) （期刊）
+* 
+
+
 #### 20210326
 TOP
 * [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/pdf/2103.14030.pdf) a hierarchical Transformer whose representation is computed with shifted windows. This hierarchical architecture has the flexibility to model at various scales and has linear computational complexity with respect to image size. BOOM RESULTS. [code](https://github.com/microsoft/Swin-Transformer) (Han Hu, Yue Cao, Stephen Lin et al)     
