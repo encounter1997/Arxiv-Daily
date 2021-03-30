@@ -3,6 +3,27 @@ My daily arxiv reading notes
 
 
 ## CV (Daily)
+#### 20210330
+CVPR21：
+* 
+
+Vision Transformer:
+* [CvT: Introducing Convolutions to Vision Transformers](https://arxiv.org/pdf/2103.15808.pdf) This is accomplished through two primary modifications: a hierarchy of Transformers containing a new convolutional token embedding, and a convolutional Transformer block leveraging a convolutional projection. [code](https://github.com/leoxiaobin/CvT)
+* [PixelTransformer: Sample Conditioned Signal Generation](https://arxiv.org/pdf/2103.15813.pdf) We propose a generative model that can infer a distribution for the underlying spatial signal conditioned on sparse samples e.g. plausible images given a few observed pixels.
+* [ViViT: A Video Vision Transformer](https://arxiv.org/pdf/2103.15691.pdf) transformer做视频分类 In order to handle the long sequences of tokens encountered in video, we propose several, efficient variants of our model which factorise the spatial- and temporal-dimensions of the input. 
+* [On the Adversarial Robustness of Visual Transformers](https://arxiv.org/pdf/2103.15670.pdf) Tested on various white-box and transfer attack settings, we find that ViTs possess better adversarial robustness when compared with convolutional neural networks (CNNs). We summarize the following main observations contributing to the improved robustness of ViTs: 1) Features learned by ViTs contain less low-level information and are more generalizable, which contributes to superior robustness against adversarial perturbations. 2) Introducing convolutional or tokens-to-token blocks for learning low-level features in ViTs can improve classification accuracy but at the cost of adversarial robustness. 3) Increasing the proportion of transformers in the model structure (when the model consists of both transformer and CNN blocks) leads to better robustness. But for a pure transformer model, simply increasing the size or adding layers cannot guarantee a similar effect. 4) Pre-training on larger datasets does not significantly improve adversarial robustness though it is critical for training ViTs. 5) Adversarial training is also applicable to ViT for training robust models. The results show that ViTs are less sensitive to high-frequency perturbations than CNNs and there isa high correlation between how well the model learns low level features and its robustness against different frequencybased perturbations.
+* [Transformer Tracking](https://arxiv.org/pdf/2103.15436.pdf) [code](https://github.com/chenxin-dlut/TransT) 从tracking中关系建模和特征融合的重要性和复杂性讲起，引入transformer (Huchuan Lu)
+* [Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding](https://arxiv.org/pdf/2103.15358.pdf) Multi-Scale Vision Longformer, which significantly enhances the ViT of [11] for encoding highresolution images using two techniques. multi-scale model structure, attention mechanism of vision Longformer, which is a variant of Longformer [2]. 实验：image classification, object detection, and segmentation. 
+* [TFPose: Direct Human Pose Estimation with Transformers](https://arxiv.org/pdf/2103.15320.pdf) we formulate the pose estimation task into a sequence prediction problem that can effectively be solved by transformers. 关键：分析引入transformer解决的问题和带来的好处：Our framework is simple and direct, bypassing the drawbacks of the heatmapbased pose estimation. Moreover, with the attention mechanism in transformers, our proposed framework is able to adaptively attend to the features most relevant to the target keypoints, which largely overcomes the feature misalignment issue of previous regression-based methods and considerably improves the performance. [AdelaiDet](https://github.com/aim-uofa/AdelaiDet/)  (Chunhua Shen, Zhi Tian, Xinlong Wang, et al.)
+* [HiT: Hierarchical Transformer with Momentum Contrast for Video-Text Retrieval](https://arxiv.org/pdf/2103.15049.pdf) 讲Transformer和对比学习结合做Video-Text Retrieval
+* [CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification](https://arxiv.org/pdf/2103.14899.pdf) 在ViT中引入多尺度和efficiency. To reduce computation, we develop a simple yet effective token fusion module based on cross attention, which uses a single token for each branch as a query to exchange information with other branches. (Linear)
+* [Looking Beyond Two Frames: End-to-End Multi-Object Tracking Using Spatial and Temporal Transformers](https://arxiv.org/pdf/2103.14829.pdf)
+* [Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers](https://arxiv.org/pdf/2103.15679.pdf) [code](https://github.com/hila-chefer/Transformer-MM-Explainability) 研究transformer可解释性. Unlike Transformers that only use self-attention, Transformers with coattention require to consider multiple attention maps in
+parallel in order to highlight the information that is relevant to the prediction in the model’s input. 
+(coattention就是cross attention?)
+* [Face Transformer for Recognition](https://arxiv.org/pdf/2103.14803.pdf) 单纯拿ViT在人脸识别上测试 We wonder if transformer can be used in face recognition and whether it is better than CNNs. Therefore, we investigate the performance of Transformer models in face recognition.
+* [TransCenter: Transformers with Dense Queries for Multiple-Object Tracking](https://arxiv.org/pdf/2103.15145.pdf) Inspired by recent research, we propose TransCenter, the first transformer-based architecture for tracking the centers of multiple targets. Methodologically, we propose the use of dense queries in a double-decoder network, to be able to robustly infer the heatmap of targets’ centers and associate them through time.
+
 #### 20210329
 CVPR21
 * [PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds](https://arxiv.org/pdf/2103.14635.pdf) 动态网络Position Adaptive Convolution (PAConv) for r 3D point cloud processing. The key of PAConv is to construct the convolution kernel by dynamically assembling basic weight matrices stored in Weight Bank, where the coefficients of these weight matrices are self-adaptively learned from point positions through ScoreNet. [code](https://github.com/CVMI-Lab/PAConv)
@@ -18,18 +39,30 @@ CVPR21
 
 其他
 * [Understanding Robustness of Transformers for Image Classification](https://arxiv.org/pdf/2103.14586.pdf) 探索vision transformer鲁棒性 We investigate robustness to input perturbations as well as robustness to model perturbations. We find that when pre-trained with a sufficient amount of data, ViT models are at least as robust as the ResNet counterparts on a broad range of perturbations. We also find that Transformers are robust to the removal of almost any single layer, and that while activations from later layers are highly correlated with each other, they nevertheless play an important role in classification. (Google Research)
+
 * [COTR: Correspondence Transformer for Matching Across Images](https://arxiv.org/pdf/2103.14167.pdf) 问题设置类似Jianlong Fu, et al用transformer解决有reference的超分辨
+
 * [Lifting Transformer for 3D Human Pose Estimation in Video](https://arxiv.org/pdf/2103.14304.pdf) 
+
 * [Training a Better Loss Function for Image Restoration](https://arxiv.org/pdf/2103.14616.pdf) In this work, we explore the question of what makes a good loss function for an image restoration task. [code](https://github.com/gfxdisp/mdf)
+
 * [Marine Snow Removal Benchmarking Dataset](https://arxiv.org/pdf/2103.14249.pdf) low-level 水下新任务和benchmark [code](https://github.com/ychtanaka/marine-snow)
+
 * [DivAug: Plug-in Automated Data Augmentation with Explicit Diversity Maximization](https://arxiv.org/pdf/2103.14545.pdf)
+
 * [On Generating Transferable Targeted Perturbations](https://arxiv.org/pdf/2103.14641.pdf) changing an unseen model’s decisions to a specific ‘targeted’ class remains a challenging feat. In this paper, we propose a new generative approach for highly transferable targeted perturbations (TTP). [code](https://github.com/Muzammal-Naseer/TTP)
+
 * [Unsupervised Robust Domain Adaptation without Source Data](https://arxiv.org/pdf/2103.14577.pdf) 将Domain Adaptation without Source Data和对抗鲁棒性问题结合进行研究 This paper aims at answering the question of finding the right strategy to make the target model robust and accurate in the setting of unsupervised domain adaptation without source data. (Luc Van Gool)
+
 * [Geometry-Aware Unsupervised Domain Adaptation for Stereo Matching](https://arxiv.org/pdf/2103.14333.pdf) DA for Stereo Matching （期刊）
+
 * [Non-Salient Region Object Mining for Weakly Supervised Semantic Segmentation](https://arxiv.org/pdf/2103.14581.pdf) However, existing works mainly concentrate on expanding the seed of pseudo labels within the image’s salient region. In this work, we propose a non-salient region object mining approach for weakly supervised semantic segmentation. [code](https://github.com/NUST-Machine-Intelligence-Laboratory/nsrom)
+
 * [Sparse Object-level Supervision for Instance Segmentation with Pixel Embeddings](https://arxiv.org/pdf/2103.14572.pdf) 生物图像实例分割 We propose to address the dense annotation bottleneck by introducing a proposal-free segmentation approach based on non-spatial embeddings, which exploits the structure of the learned embedding space to extract individual instances in a differentiable way. [code](https://github.com/kreshuklab/spoco)
+
 * [Towards a Unified Approach to Single Image Deraining and Dehazing](https://arxiv.org/pdf/2103.14204.pdf) （期刊）
-* 
+
+  
 
 
 #### 20210326
@@ -49,19 +82,29 @@ CVPR21:
 * [Vectorization and Rasterization: Self-Supervised Learning for Sketch and Handwriting](https://arxiv.org/pdf/2103.13716.pdf) 自监督Sketch and Handwriting表示学习，将其看作文本和图像之间的模态。In this paper, we are interested in defining a self-supervised pre-text task for sketches and handwriting data. This data is uniquely characterised by its existence in dual modalities of rasterized images and vector coordinate sequences.   two novel cross-modal translation pre-text tasks for selfsupervised feature learning: Vectorization and Rasterization.
 * [OTCE: A Transferability Metric for Cross-Domain Cross-Task Representations](https://arxiv.org/pdf/2103.13843.pdf) 新的迁移任务：同时考虑domain和task的迁移。Transfer learning across heterogeneous data distributions (a.k.a. domains) and distinct tasks is a more general and challenging problem than conventional transfer learning, where either domains or tasks are assumed to be the same.  We propose a transferability metric called Optimal Transport based Conditional Entropy (OTCE), to analytically predict the transfer performance for supervised classification tasks in such cross domain and cross-task feature transfer settings
 * [Closing the Loop: Joint Rain Generation and Removal via Disentangled Image Translation](https://arxiv.org/pdf/2103.13660.pdf) 图像翻译做去雨(low-level主流)
-* 
 
 Others 
 * [An Image is Worth 16x16 Words, What is a Video Worth?](https://arxiv.org/pdf/2103.13915.pdf) transformer做action recognition. [code](https://github.com/Alibaba-MIIL/STAM)  
+
 * [Contrast to Divide: Self-Supervised Pre-Training for Learning with Noisy Labels](https://arxiv.org/pdf/2103.13646.pdf) we identify a “warm-up obstacle”: the inability of standard warm-up stages to train high quality feature extractors and avert memorization of noisy labels. We propose “Contrast to Divide” (C2D), a simple framework that solves this problem by pre-training the feature extractor in a self-supervised fashion. 
+
 * [Universal Representation Learning from Multiple Domains for Few-shot Classification](https://arxiv.org/pdf/2103.13841.pdf) In this work, we propose to learn a single set of universal deep representations by distilling knowledge of multiple separately trained networks after co-aligning their features with the help of adapters and centered kernel alignment. 
+
 * [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://arxiv.org/pdf/2103.13873.pdf)   (TPAMI)  
+
 * [USB: Universal-Scale Object Detection Benchmark](https://arxiv.org/pdf/2103.14027.pdf) In this paper, we introduce the UniversalScale object detection Benchmark (USB). USB has variations in object scales and image domains by incorporating COCO with the recently proposed Waymo Open Dataset and Manga109-s dataset. UniverseNets. [code](https://github.com/shinya7y/UniverseNet)  
+
 * [Multi-Target Domain Adaptation via Unsupervised Domain Classification for Weather Invariant Object Detection](https://arxiv.org/pdf/2103.13970.pdf) However, most existing domain adaptation methods either handle singletarget domain or require domain labels. We propose a novel unsupervised domain classification method which can be used to generalize single-target domain adaptation methods to multi-target domains, and design a weather-invariant object detector training framework based on it.  
+
 * [StyleLess layer: Improving robustness for real-world driving](https://arxiv.org/pdf/2103.13905.pdf)  
+
 * [GridDehazeNet+: An Enhanced Multi-Scale Network with Intra-Task Knowledge Transfer for Single Image Dehazing](https://arxiv.org/pdf/2103.13998.pdf) 
+
 * [Hierarchical Deep CNN Feature Set-Based Representation Learning for Robust Cross-Resolution Face Recognition](https://arxiv.org/pdf/2103.13851.pdf) (Guo-Jun Qi, TCSVT)
+
 * [Self-Supervised Training Enhances Online Continual Learning](https://arxiv.org/pdf/2103.14010.pdf)
+
+  
 
 #### 20210325
 CVPR21: 
@@ -84,6 +127,8 @@ CVPR21:
 其他：
 * [Can Vision Transformers Learn without Natural Images?](https://arxiv.org/pdf/2103.13023.pdf) 
 
+  
+
 
 #### 20210324
 CVPR21：
@@ -94,9 +139,14 @@ CVPR21：
 
 其他：
 * [Learning without Seeing nor Knowing: Towards Open Zero-Shot Learning](https://arxiv.org/pdf/2103.12437.pdf) 
+
 * [BossNAS: Exploring Hybrid CNN-transformers with Block-wisely Self-supervised Neural Architecture Search](https://arxiv.org/pdf/2103.12424.pdf)  
+
 * [Global Correlation Network: End-to-End Joint Multi-Object Detection and Tracking](https://arxiv.org/pdf/2103.12511.pdf)   
+
 * [End-to-End Trainable Multi-Instance Pose Estimation with Transformers](https://arxiv.org/pdf/2103.12115.pdf)  
+
+  
 
 
 #### 20210323
