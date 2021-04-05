@@ -1,21 +1,62 @@
 # Arxiv-Daily
+
 My daily arxiv reading notes.  
 
 [2021 March](202103.md)
 
+<font color=LightSkyBlue>The update will be suspended for two weeks ultil April 17,  due to the recent rush of conference paper submission deadline. Thanks for understanding.</font>
+
 
 ## CV (Daily)
+
+#### 20210405
+
+CVPR21:
+
+* [Group Collaborative Learning for Co-Salient Object Detection](https://arxiv.org/pdf/2104.01108.pdf) [code](https://github.com/fanq15/GCoNet)  (Deng-Ping Fan, Ling Shao)
+* [MOST: A Multi-Oriented Scene Text Detector with Localization Refinement](https://arxiv.org/pdf/2104.01070.pdf)  (Xiang Bai)
+* [Visual Semantic Role Labeling for Video Understanding](https://arxiv.org/pdf/2104.00990.pdf)
+* [UAV-Human: A Large Benchmark for Human Behavior Understanding with Unmanned Aerial Vehicles](https://arxiv.org/pdf/2104.00946.pdf)
+* [Video Prediction Recalling Long-term Motion Context via Memory Alignment Learning](https://arxiv.org/pdf/2104.00924.pdf)
+* [Background-Aware Pooling and Noise-Aware Loss for Weakly-Supervised Semantic Segmentation](https://arxiv.org/pdf/2104.00905.pdf)
+* [Network Quantization with Element-wise Gradient Scaling](https://arxiv.org/pdf/2104.00903.pdf)
+* [HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection](https://arxiv.org/pdf/2104.00902.pdf)
+* [Adaptive Class Suppression Loss for Long-Tail Object Detection](https://arxiv.org/pdf/2104.00885.pdf)
+* [S2R-DepthNet: Learning a Generalizable Depth-specific Structural Representation](https://arxiv.org/pdf/2104.00877.pdf)  (Xuejin Chen, Wenjun Zeng)
+* [Self-supervised Video Representation Learning by Context and Motion Decoupling](https://arxiv.org/pdf/2104.00862.pdf)
+* [Fully Understanding Generic Objects: Modeling, Segmentation, and Reconstruction](https://arxiv.org/pdf/2104.00858.pdf)
+* [Towards High Fidelity Face Relighting with Realistic Shadows](https://arxiv.org/pdf/2104.00825.pdf)
+* [Curriculum Graph Co-Teaching for Multi-Target Domain Adaptation](https://arxiv.org/pdf/2104.00808.pdf)
+* [FESTA: Flow Estimation via Spatial-Temporal Attention for Scene Point Clouds](https://arxiv.org/pdf/2104.00798.pdf)
+
+Vision Transformer:
+
+* [LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference](https://arxiv.org/pdf/2104.01136.pdf) 从speed-acc tradeoff的角度讲故CNN与ViT结合，提出attention bias, a new way to integrate positional information in vision transformers.：We design a family of image classification architectures that optimize the trade-off between accuracy and efficiency in a high-speed regime.   We revisit principles from the extensive literature on convolutional neural networks to apply them to transformers, in particular activation maps with decreasing resolutions. We also introduce the attention bias, a new way to integrate positional information in vision transformers.  As a result, we propose LeVIT: a hybrid neural network for fast inference image classification.  For example, at 80% ImageNet top-1 accuracy, LeViT is 3.3 times faster than EfficientNet on the CPU. 
+* [Language-based Video Editing via Multi-Modal Multi-Level Transformer](https://arxiv.org/pdf/2104.01122.pdf)  
+* [AAformer: Auto-Aligned Transformer for Person Re-Identification](https://arxiv.org/pdf/2104.00921.pdf)
+* [TubeR: Tube-Transformer for Action Detection](https://arxiv.org/pdf/2104.00969.pdf) 
+* [TFill: Image Completion via a Transformer-Based Architecture](https://arxiv.org/pdf/2104.00845.pdf)  [code](https://github.com/lyndonzheng/TFill)  (Jianfei Cai)
+* [VisQA: X-raying Vision and Language Reasoning in Transformers](https://arxiv.org/pdf/2104.00926.pdf)
+
+Others:
+
+* [Scene Graphs: A Survey of Generations and Applications](https://arxiv.org/pdf/2104.01111.pdf) 
+* 
+
 #### 20210402
+
 TOP:
+
 * [Group-Free 3D Object Detection via Transformers](https://arxiv.org/pdf/2104.00678.pdf) In this paper, we present a simple yet effective method for directly detecting 3D objects from the 3D point cloud. Instead of grouping local points to each object candidate, our method computes the feature of an object from all the points in the point cloud with the help of an attention mechanism in the Transformers, where the contribution of each point is automatically learned in the network training. [code](https://github.com/zeliu98/Group-Free-3D)  (Ze Liu, Yue Cao, Han Hu)
 * [EfficientNetV2: Smaller Models and Faster Training](https://arxiv.org/pdf/2104.00298.pdf) 考虑训练的Efficiency (1) To develop this family of models, we use a combination of training-aware neural architecture search and scaling, to jointly optimize training speed and parameter efficiency.   Our experiments show that EfficientNetV2 models train much faster than state-of-the-art models while being up to 6.8x smaller.  (2) we propose an improved method of progressive learning, which adaptively adjusts regularization (e.g., dropout and data augmentation) along with image size. By pretraining on the same ImageNet21k, our EfficientNetV2 achieves 87.3% top-1 accuracy on ImageNet ILSVRC2012, outperforming the recent ViT by 2.0% accuracy while training 5x-11x faster using the same computing resources.  [code](https://github.com/google/automl/efficientnetv2)   (Mingxing Tan, Quoc V. Le) 
 * [UC2: Universal Cross-lingual Cross-modal Vision-and-Language Pre-training](https://arxiv.org/pdf/2104.00332.pdf) To generalize this success to non-English languages, we introduce UC2 , the first machine translation-augmented framework for cross-lingual cross-modal representation learning. (1 ) augment existing English-only datasets with other languages via machine translation (MT) (2) shared visual context (i.e., using image as pivot) (3) To facilitate the learning of a joint embedding space of images and all languages of interest, we further propose two novel pre-training tasks, namely Masked Region-to-Token Modeling (MRTM) and Visual Translation Language Modeling (VTLM), leveraging MT-enhanced translated data.
-* [Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval](https://arxiv.org/pdf/2104.00650.pdf)  (Andrew Zisserman)
+* [Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval](https://arxiv.org/pdf/2104.00650.pdf)  Our objective in this work is video-text retrieval – in particular a joint embedding that enables efficient text-to-video retrieval.  We propose an end-to-end trainable model that is designed to take advantage of both large-scale image and video captioning datasets. Our model is an adaptation and extension of the recent ViT and Timesformer architectures, and consists of attention in both space and time.   It is trained with a curriculum learning schedule that begins by treating images as ‘frozen’ snapshots of video, and then gradually learns to attend to increasing temporal context when trained on video datasets. (Andrew Zisserman)
 * [Jigsaw Clustering for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/2104.00323.pdf)  有趣的pretext task设计。 We propose a new jigsaw clustering pretext task in this paper, which only needs to forward each training batch itself, and reduces the training cost. Our method makes use of information from both intra- and inter-images, and outperforms previous single-batch based ones by a large margin. It is even comparable to the contrastive learning methods when only half of training batches are used.   Our method indicates that multiple batches during training are not necessary, and opens the door for future research of single-batch unsupervised methods.  [code](https://github.com/Jia-Research-Lab/JigsawClustering)  (Jiaya Jia, CVPR21) 
 * [Unsupervised Sound Localization via Iterative Contrastive Learning](https://arxiv.org/pdf/2104.00315.pdf)  Sound localization aims to find the source of the audio signal in the visual scene.  In this work, we propose an iterative contrastive learning framework that requires no data annotations. At each iteration, the proposed method takes the 1) localization results in images predicted in the previous iteration, and 2) semantic relationships inferred from the audio signals as the pseudolabels.   Our iterative strategy gradually encourages the localization of the sounding objects and reduces the correlation between the non-sounding regions and the reference audio. (如何保证基于伪标签的迭代是变好，而非变差？) (Ming-Hsuan Yang)
 * [In&Out : Diverse Image Outpainting via GAN Inversion](https://arxiv.org/pdf/2104.00675.pdf) GAN inversion逐渐成为GAN研究的主流方向，本文借GAN inversion做Image outpainting.   Image outpainting seeks for a semantically consistent extension of the input image beyond its available content.   In this work, we formulate the problem from the perspective of inverting generative adversarial networks. Our generator renders micro-patches conditioned on their joint latent code as well as their individual positions in the image. [code](https://github.com/yccyenchicheng/InOut) (Ming-Hsuan Yang)
 
 CVPR21:
+
 * [Online Multiple Object Tracking with Cross-Task Synergy](https://arxiv.org/pdf/2104.00380.pdf)  [code](https://github.com/songguocode/TADAM)  (Dacheng Tao)
 * [Dive into Ambiguity: Latent Distribution Mining and Pairwise Uncertainty Estimation for Facial Expression Recognition](https://arxiv.org/pdf/2104.00232.pdf)  (Tao Mei)
 * [Divergence Optimization for Noisy Universal Domain Adaptation](https://arxiv.org/pdf/2104.00246.pdf)
@@ -39,6 +80,7 @@ CVPR21:
 * [Deep Two-View Structure-from-Motion Revisited](https://arxiv.org/pdf/2104.00556.pdf)
 
 Vision Transformer:
+
 * [Group-Free 3D Object Detection via Transformers](https://arxiv.org/pdf/2104.00678.pdf) In this paper, we present a simple yet effective method for directly detecting 3D objects from the 3D point cloud. Instead of grouping local points to each object candidate, our method computes the feature of an object from all the points in the point cloud with the help of an attention mechanism in the Transformers, where the contribution of each point is automatically learned in the network training. [code](https://github.com/zeliu98/Group-Free-3D)  (Ze Liu, Yue Cao, Han Hu)
 * [Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval](https://arxiv.org/pdf/2104.00650.pdf)
 * [Spatial-Temporal Graph Transformer for Multiple Object Tracking](https://arxiv.org/pdf/2104.00194.pdf) Tracking multiple objects in videos relies on modeling the spatial-temporal interactions of the objects. In this paper, we propose a solution named Spatial-Temporal Graph Transformer (STGT), which leverages powerful graph transformers to efficiently model the spatial and temporal interactions among the objects.
@@ -48,11 +90,12 @@ Vision Transformer:
 
 
 Others:
+
 * [The surprising impact of mask-head architecture on novel class segmentation](https://arxiv.org/pdf/2104.00613.pdf) We address the partially supervised instance segmentation problem in which one can train on (significantly cheaper) bounding boxes for all categories but use masks only for a subset of categories.     [code](https://google.github.io/deepmac/) 
 * [In&Out : Diverse Image Outpainting via GAN Inversion](https://arxiv.org/pdf/2104.00675.pdf) GAN inversion逐渐成为GAN研究的主流方向，本文借GAN inversion做Image outpainting.   Image outpainting seeks for a semantically consistent extension of the input image beyond its available content.   In this work, we formulate the problem from the perspective of inverting generative adversarial networks. Our generator renders micro-patches conditioned on their joint latent code as well as their individual positions in the image. [code](https://github.com/yccyenchicheng/InOut) (Ming-Hsuan Yang)
 * [Is Label Smoothing Truly Incompatible with Knowledge Distillation: An Empirical Study](https://arxiv.org/pdf/2104.00676.pdf) (ICLR21)
 * [CUPID: Adaptive Curation of Pre-training Data for Video-and-Language Representation Learning](https://arxiv.org/pdf/2104.00285.pdf)
-* [Composable Augmentation Encoding for Video Representation Learning](https://arxiv.org/pdf/2104.00616.pdf)
+* [Composable Augmentation Encoding for Video Representation Learning](https://arxiv.org/pdf/2104.00616.pdf)  To overcome this limitation, we propose an ‘augmentation aware’ contrastive learning framework, where we explicitly provide a sequence of augmentation parameterisations (such as the values of the time shifts used to create data views) as composable augmentation encodings (CATE) to our model when projecting the video representations for contrastive learning. 
 * [Text to Image Generation with Semantic-Spatial Aware GAN](https://arxiv.org/pdf/2104.00567.pdf)
 * [Linear Semantics in Generative Adversarial Networks](https://arxiv.org/pdf/2104.00487.pdf)
 * [Unsupervised Foreground-Background Segmentation with Equivariant Layered GANs](https://arxiv.org/pdf/2104.00483.pdf)
@@ -67,12 +110,15 @@ Others:
 
 
 #### 20210401
+
 TOP: 
+
 * [Going deeper with Image Transformers](https://arxiv.org/pdf/2103.17239.pdf)  However the optimization of image transformers has been little studied so far. In this work, we build and optimize deeper transformer networks for image classification.  This leads us to produce models whose performance does not saturate early with more depth, for instance we obtain 86.3% top-1 accuracy on Imagenet when training with no external data  (Facebook, DeiT团队)  
 * [StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery](https://arxiv.org/pdf/2103.17249.pdf) However, discovering semantically meaningful latent manipulations typically involves painstaking human examination of the many degrees of freedom, or an annotated collection of images for each desired manipulation. In this work, we explore leveraging the power of recently introduced Contrastive Language-Image Pre-training (CLIP) models in order to develop a text-based interface for StyleGAN image manipulation that does not require such manual effort.  [code](https://github.com/orpatashnik/StyleCLIP)
 * [PiCIE: Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering](https://arxiv.org/pdf/2103.17070.pdf) 
 
 CVPR21:
+
 * [Scale-aware Automatic Augmentation for Object Detection](https://arxiv.org/pdf/2103.17220.pdf) [code](https://github.com/Jia-Research-Lab/SA-AutoAug) (Jiaya Jia)
 * [Towards More Flexible and Accurate Object Tracking with Natural Language: Algorithms and Benchmark](https://arxiv.org/pdf/2103.16746.pdf) Tracking by natural language specification is a new rising research topic that aims at locating the target object in the video sequence based on its language description.  In this work, we propose a new benchmark specifically dedicated to the tracking-by-language, including a large scale dataset, strong and diverse baseline methods.  We also introduce two new challenges into TNL2K for the object tracking task, i.e., adversarial samples and modality switch.   (Feng Wu)
 * [SimPLE: Similar Pseudo Label Exploitation for Semi-Supervised Classification](https://arxiv.org/pdf/2103.16725.pdf)
@@ -105,6 +151,7 @@ CVPR21:
 
 
 Vision Transformer:
+
 * [Going deeper with Image Transformers](https://arxiv.org/pdf/2103.17239.pdf)  However the optimization of image transformers has been little studied so far. In this work, we build and optimize deeper transformer networks for image classification.  This leads us to produce models whose performance does not saturate early with more depth, for instance we obtain 86.3% top-1 accuracy on Imagenet when training with no external data  (Facebook, DeiT团队)  
 * [Learning Spatio-Temporal Transformer for Visual Tracking](https://arxiv.org/pdf/2103.17154.pdf)   The encoder models the global spatio-temporal feature dependencies between target objects and search regions, while the decoder learns a query embedding to predict the spatial positions of the target objects.  The whole method is endto-end, does not need any postprocessing steps such as cosine window and bounding box smoothing, thus largely simplifying existing tracking pipelines. [code](https://github.com/researchmm/Stark)  (Jianlong Fu, Huchuan Lu) 
 * [Robust Facial Expression Recognition with Convolutional Visual Transformers](https://arxiv.org/pdf/2103.16854.pdf)  Different from previous pure CNNs based methods, we argue that it is feasible and practical to translate facial images into sequences of visual words and perform expression recognition from a global perspective.  (Shutao Li)
