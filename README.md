@@ -8,6 +8,87 @@ My daily arxiv reading notes.
 
 ## CV (Daily)
 
+#### 20210615
+
+- [Styleformer: Transformer based Generative Adversarial Networks with Style Vector](https://arxiv.org/pdf/2106.07023.pdf) 
+> 基于Transformer的GAN做图像生成 (unconditional)，和SOTA相比comparable
+> METHOD: 1. we change the demodulation of StyleGAN2 and modify the existing transformer structure (e.g., residual connection, layer normalization) to create a strong style-based generator with a convolution-free structure;  2.We also make Styleformer lighter by applying Linformer.
+> [code](https://github.com/Jeeseung-Park/Styleformer)
+
+- [Exploring and Distilling Posterior and Prior Knowledge for Radiology Report Generation](https://arxiv.org/pdf/2106.06963.pdf) (CVPR'21)
+> TASK: Automatically generating radiology reports
+> PROBLEM: Yet, this task remains a challenging job for data-driven neural networks, due to the serious visual and textual data biases
+> METHOD: To this end, we propose a Posterior-and-Prior Knowledge Exploring-and-Distilling approach (PPKED) to imitate the working patterns of radiologists, who will first examine the abnormal regions and assign the disease topic tags to the abnormal regions, and then rely on the years of prior medical knowledge and prior working experience accumulations to write reports.
+
+- [Cross-Modal Attention Consistency for Video-Audio Unsupervised Learning](https://arxiv.org/pdf/2106.06939.pdf)  (Shaobo Min, Yongdong Zhang, Jingdong Wang)
+> MOTIVATION: We human visual perception could attend to regions where sounds are made, and our auditory perception could also ground their frequencies of sounding objects, which we call bidirectional local correspondence. Such supervision is intuitive but not well explored in the contrastive learning framework
+> a pretext task, Cross-Modal Attention Consistency (CMAC), aims to align the regional attention generated purely from the visual signal with the target attention generated under the guidance of acoustic signal, and do a similar alignment for frequency grounding on the acoustic attention. 
+
+- [Video Super-Resolution Transformer](https://arxiv.org/pdf/2106.06847.pdf)  (Luc Van Gool)
+> TASK: Video super-resolution (VSR)
+> PROBLEM: However, the typical block design of Transformer with a fully connected self-attention layer and a tokenwise feed-forward layer does not fit well for VSR due to the following two reasons. First, the fully connected self-attention layer neglects to exploit the data locality because this layer relies on linear layers to compute attention maps. Second, the token-wise feed-forward layer lacks the feature alignment which is important for VSR since this layer independently processes each of the input token embeddings without any interaction among them.
+>
+> > METHOD: Specifically, to tackle the first issue, we present a spatial-temporal convolutional self-attention layer with a theoretical understanding to exploit the locality information. For the second issue, we design a bidirectional optical flow-based feed-forward layer to discover the correlations across different video frames and also align features.
+
+- [Go Small and Similar: A Simple Output Decay Brings Better Performance](https://arxiv.org/pdf/2106.06726.pdf)
+> FUNNY
+> This paper begins with empirical observations that better performances are significantly associated with output distributions, that have smaller average values and variances
+> By audaciously assuming there is causality involved, we propose a novel regularization term, called Output Decay, that enforces the model to assign smaller and similar output values on each class.
+
+- [Disrupting Model Training with Adversarial Shortcuts](https://arxiv.org/pdf/2106.06654.pdf)
+> 一种新的攻击方法：adversarial shortcuts, which encourage models to rely on non-robust signals rather than semantic features.
+
+- [Large-Scale Unsupervised Object Discovery](https://arxiv.org/pdf/2106.06650.pdf)
+> Existing approaches to unsupervised object discovery (UOD) do not scale up to large datasets without approximations which compromise their performance. We propose a novel formulation of UOD as a ranking problem. 实验效果惊艳，能够scale到大型数据集上
+
+- [PopSkipJump: Decision-Based Attack for Probabilistic Classifiers](https://arxiv.org/pdf/2106.07445.pdf) (ICML'21)
+> Many existing attack algorithms cover various settings, from white-box to black-box classifiers, but typically assume that the answers are **deterministic** and often fail when they are not. We therefore propose a new adversarial decision-based attack **specifically designed for classifiers with probabilistic outputs.**
+> [code](https://github.com/cjsg/PopSkipJump)
+
+- [Robust Representation Learning via Perceptual Similarity Metrics](https://arxiv.org/pdf/2106.06620.pdf)  (ICML'21)
+> Contrastive Input Morphing (CIM), a representation learning framework that learns input-space transformations of the data to mitigate the effect of irrelevant input features on downstream performance. Our method leverages a perceptual similarity metric via a triplet loss to ensure that the transformation preserves taskrelevant information.
+
+- :star: [Delving Deep into the Generalization of Vision Transformers under Distribution Shifts](https://arxiv.org/pdf/2106.07617.pdf)  (Ziwei Liu)  ViT域适应起步
+> In this work, we provide a comprehensive study on the outof-distribution generalization of Vision Transformers
+> SETTINGS: we first present a taxonomy of distribution shifts by categorizing them into five conceptual groups: corruption shift, background shift, texture shift, destruction shift, and style shift. Then we perform extensive evaluations of ViT variants under different groups of distribution shifts and compare their generalization ability with Convolutional Neural Network (CNN) models. 
+> OBSERVATIONS: 1) ViTs generalize better than CNNs under multiple distribution shifts. With the same or less amount of parameters; 2) Larger ViTs gradually narrow the in-distribution (ID) and outof-distribution (OOD) performance gap.
+> To further improve the generalization of ViTs, we design the Generalization-Enhanced Vision Transformers by integrating adversarial learning, information theory, and self-supervised learning. we observe the gradient-sensitivity of Vision Transformers and design a smoother learning strategy to achieve a stable training process.
+> Further OBSERVATIONS : 1) For the enhanced model, larger ViTs still benefit more for the out-of-distribution generalization. 2) generalization-enhanced Vision Transformers are more sensitive to the hyper-parameters than their corresponding CNN models.
+
+- [Improved Transformer for High-Resolution GANs](https://arxiv.org/pdf/2106.07631.pdf)
+> In this paper, we introduce two key ingredients to Transformer to address this challenge. First, in low-resolution stages of the generative process, standard global self-attention is replaced with the proposed multi-axis blocked self-attention which allows efficient mixing of local and global attention. Second, in high-resolution stages, we drop self-attention while only keeping multi-layer perceptrons reminiscent of the implicit neural function. To further improve the performance, we introduce an additional selfmodulation component based on cross-attention. 降低attention的运算量，做法很直接。
+
+- [Magic Layouts: Structural Prior for Component Detection in User Interface Designs](https://arxiv.org/pdf/2106.07615.pdf)  (CVPR'21) FUNNY APPLICATION
+
+- [PolarStream: Streaming Lidar Object Detection and Segmentation with Polar Pillars](https://arxiv.org/pdf/2106.07545.pdf)
+> However, due to use of cartesian coordinate systems these methods represent the sectors as rectangular regions, wasting memory and compute. In this work we propose using a polar coordinate system and make two key improvements on this design.
+
+- [S^2 -MLP: Spatial-Shift MLP Architecture for Vision](https://arxiv.org/pdf/2106.07477.pdf)
+> 沿MLP方向的改进，基于spatial-specific造成过拟合的观察，提出spatial-shift module
+> The performance drop of MLP-Mixer motivates us to rethink the token-mixing MLP. We discover that token-mixing operation in MLP-Mixer is a variant of depthwise convolution with a global reception field and spatial-specific configuration. But the global reception field and the spatial-specific property make token-mixing MLP prone to over-fitting
+> In this paper, we propose a novel pure MLP architecture, spatial-shift MLP (S2 -MLP). Different from MLP-Mixer, our S2 -MLP only contains channel-mixing MLP. We devise a spatial-shift operation for achieving the communication between patches. It has a local reception field and is spatial-agnostic.
+
+- :star: :star: [Partial success in closing the gap between human and machine vision](https://arxiv.org/pdf/2106.07411.pdf)
+> Our findings are threefold. (1.) The longstanding robustness gap between humans and CNNs is closing, with the best models now matching or exceeding human performance on most OOD datasets. (2.) There is still a substantial image-level consistency gap, meaning that humans make different errors than models. In contrast, most models systematically agree in their categorisation errors, even substantially different ones like contrastive self-supervised vs. standard supervised models. (3.) In many cases, human-to-model consistency improves when training dataset size is increased by one to three orders of magnitude
+> [code](https://github.com/bethgelab/model-vs-human/)
+
+- [Variational Quanvolutional Neural Networks with enhanced image encoding](https://arxiv.org/pdf/2106.07327.pdf)  FUNNY
+
+- [Time Lens: Event-based Video Frame Interpolation](https://arxiv.org/pdf/2106.07286.pdf)  (CVPR'21)
+
+- [Attention-based Domain Adaptation for Single Stage Detectors](https://arxiv.org/pdf/2106.07283.pdf)
+> 针对一阶段检测器的域适应目标检测
+> previous work has mostly focused on two-stage detectors. This is because their use of region proposals makes it possible to perform local adaptation, which has been shown to significantly improve the adaptation effectiveness.
+> To nonetheless benefit from the strength of local adaptation, we introduce an attention mechanism that lets us identify the important regions on which adaptation should focus. Our approach is generic and can be integrated into any single-stage detector.
+
+- [SinIR: Efficient General Image Manipulation with Single Image Reconstruction](https://arxiv.org/pdf/2106.07140.pdf)  (ICML'21, Qifeng Chen)
+> We propose SinIR, an efficient reconstructionbased framework **trained on a single natural image** for **general image manipulation, including super-resolution, editing, harmonization, paint-toimage, photo-realistic style transfer, and artistic style transfer**.
+> Moreover, with a much simpler training objective (i.e., reconstruction), SinIR is trained 33.5 times faster than SinGAN (for 500 × 500 images) that solves similar tasks.
+> [code](https://github.com/YooJiHyeong/SinIR)
+
+- [Survey: Image Mixing and Deleting for Data Augmentation](https://arxiv.org/pdf/2106.07085.pdf)
+
+
 #### 20210611
 - :star: :star: ​[MST: Masked Self-Supervised Transformer for Visual Representation](https://arxiv.org/pdf/2106.05656.pdf)
 
