@@ -10,20 +10,24 @@ My daily arxiv reading notes.
 
 ## CV (Daily)
 
-#### 20210701
+#### 20210706
+* [What Makes for Hierarchical Vision Transformer?](https://arxiv.org/pdf/2107.02174.pdf) (Xinggang Wang)
+* [MixStyle Neural Networks for Domain Generalization and Adaptation](https://arxiv.org/pdf/2107.02053.pdf)
+* [On Model Calibration for Long-Tailed Object Detection and Instance Segmentation](https://arxiv.org/pdf/2107.02170.pdf)  (Boqing Gong)
+* [Test-Time Personalization with a Transformer for Human Pose Estimation](https://arxiv.org/pdf/2107.02133.pdf)  (Xiaolong Wang)
 
-* [SOLO: A Simple Framework for Instance Segmentation](https://arxiv.org/pdf/2106.15947.pdf) 
-
-  > SOLO TPAMI version
-
-* [Align Yourself: Self-supervised Pre-training for Fine-grained Recognition via Saliency Alignment](https://arxiv.org/pdf/2106.15788.pdf)
-
-* [Augmented Shortcuts for Vision Transformers](https://arxiv.org/pdf/2106.15941.pdf)  (Yunhe Wang)
-
-* [Multi-Source Domain Adaptation for Object Detection](https://arxiv.org/pdf/2106.15793.pdf)
-
+#### 20210705
+* :star: [Simpler, Faster, Stronger: Breaking The log-K Curse On Contrastive Learners With FlatNCE](https://arxiv.org/pdf/2107.01152.pdf)
+* [How Incomplete is Contrastive Learning? An Inter-intra Variant Dual Representation Method for Self-supervised Video Recognition](https://arxiv.org/pdf/2107.01194.pdf)
+* [A Survey on Deep Learning Technique for Video Segmentation](https://arxiv.org/pdf/2107.01153.pdf)  (Wenguan Wang,  Luc Van Gool)
+* [Collaborative Visual Navigation](https://arxiv.org/pdf/2107.01151.pdf)  (Wenguan Wang, Xizhou Zhu, Jifeng Dai)
+* [Unsupervised Single Image Super-resolution Under Complex Noise](https://arxiv.org/pdf/2107.00986.pdf)
+* [Polarized Self-Attention: Towards High-quality Pixel-wise Regression](https://arxiv.org/pdf/2107.00782.pdf)
+* [Blind Image Super-Resolution via Contrastive Representation Learning](https://arxiv.org/pdf/2107.00708.pdf)
+* [Rapid Neural Architecture Search by Learning to Generate Graphs from Datasets](https://arxiv.org/pdf/2107.00860.pdf)  (ICLR'21)
 
 #### 20210702
+
 * [CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows](https://arxiv.org/pdf/2107.00652.pdf)  (Dongdong Chen, Nenghai Yu, Baining Guo)
 * [AutoFormer: Searching Transformers for Visual Recognition](https://arxiv.org/pdf/2107.00651.pdf) (Jianlong Fu)
 * :star: [CLIP-It! Language-Guided Video Summarization](https://arxiv.org/pdf/2107.00650.pdf)  (Trevor Darrell)
@@ -42,3 +46,11 @@ My daily arxiv reading notes.
 * [Scalable Certified Segmentation via Randomized Smoothing](https://arxiv.org/pdf/2107.00228.pdf)  (ICML'21)
 * [Revisiting Knowledge Distillation: An Inheritance and Exploration Framework](https://arxiv.org/pdf/2107.00181.pdf)  (CVPR'21, Tongliang Liu, Xinmei Tian, Houqiang Li, Xian-Sheng Hua)
 * [Sanity Checks for Lottery Tickets: Does Your Winning Ticket Really Win the Jackpot?](https://arxiv.org/pdf/2107.00166.pdf)
+
+
+#### 20210701
+
+* [SOLO: A Simple Framework for Instance Segmentation](https://arxiv.org/pdf/2106.15947.pdf)  SOLO TPAMI version  
+* [Align Yourself: Self-supervised Pre-training for Fine-grained Recognition via Saliency Alignment](https://arxiv.org/pdf/2106.15788.pdf)
+* [Augmented Shortcuts for Vision Transformers](https://arxiv.org/pdf/2106.15941.pdf)  (Yunhe Wang)
+* [Multi-Source Domain Adaptation for Object Detection](https://arxiv.org/pdf/2106.15793.pdf)
