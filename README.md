@@ -10,7 +10,14 @@ My daily arxiv reading notes.
 
 ## CV (Daily)
 
+#### 20210715
+* [Deep Neural Networks are Surprisingly Reversible: A Baseline for Zero-Shot Inversion](https://arxiv.org/pdf/2107.06304.pdf)  (NVIDIA)
+* [A Generalized Lottery Ticket Hypothesis](https://arxiv.org/pdf/2107.06825.pdf)
+* [How Much Can CLIP Benefit Vision-and-Language Tasks?](https://arxiv.org/pdf/2107.06383.pdf)
+
+
 #### 20210706
+
 * [What Makes for Hierarchical Vision Transformer?](https://arxiv.org/pdf/2107.02174.pdf) (Xinggang Wang)
 * [MixStyle Neural Networks for Domain Generalization and Adaptation](https://arxiv.org/pdf/2107.02053.pdf)
 * [On Model Calibration for Long-Tailed Object Detection and Instance Segmentation](https://arxiv.org/pdf/2107.02170.pdf)  (Boqing Gong)
