@@ -10,7 +10,14 @@ My daily arxiv reading notes.
 
 ## CV (Daily)
 
+#### 20210716
+
+* [Recurrent Parameter Generators](https://arxiv.org/pdf/2107.07110.pdf)  (Yann LeCun)
+* [From Show to Tell: A Survey on Image Captioning](https://arxiv.org/pdf/2107.06912.pdf)
+* [yleFusion: A Generative Model for Disentangling Spatial Segments](https://arxiv.org/pdf/2107.07437.pdf)
+
 #### 20210715
+
 * [Deep Neural Networks are Surprisingly Reversible: A Baseline for Zero-Shot Inversion](https://arxiv.org/pdf/2107.06304.pdf)  (NVIDIA)
 * [A Generalized Lottery Ticket Hypothesis](https://arxiv.org/pdf/2107.06825.pdf)
 * [How Much Can CLIP Benefit Vision-and-Language Tasks?](https://arxiv.org/pdf/2107.06383.pdf)
