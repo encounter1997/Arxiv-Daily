@@ -12,6 +12,39 @@ My daily arxiv reading notes.
 
 ## CV (Daily)
 
+#### 20210803
+
+* [HiFT: Hierarchical Feature Transformer for Aerial Tracking](https://arxiv.org/pdf/2108.00202.pdf)  (ICCV'21)
+  * 用DETR做tracking
+* [S^2-MLPv2: Improved Spatial-Shift MLP Architecture for Vision](https://arxiv.org/pdf/2108.01072.pdf)
+* :star: [Image Synthesis and Editing with Stochastic Differential Equations](https://arxiv.org/pdf/2108.01073.pdf)  ([Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/))
+* [Multilevel Knowledge Transfer for Cross-Domain Object Detection](https://arxiv.org/pdf/2108.00977.pdf)
+  * incremental 结合图像翻译、对抗训练和伪标签
+* [Word2Pix: Word to Pixel Cross Attention Transformer in Visual Grounding](https://arxiv.org/pdf/2108.00205.pdf)
+  * In this paper we propose Word2Pix: a one-stage visual grounding network based on encoder-decoder transformer architecture that enables learning for textual to visual feature correspondence via word to pixel attention. 
+  * The embedding of each word from the query sentence is treated alike by attending to visual pixels individually instead of single holistic sentence embedding.
+* [CrossFormer: A Versatile Vision Transformer Based on Cross-scale Attention](https://arxiv.org/pdf/2108.00154.pdf)  (Deng Cai)
+  * However, existing vision transformers still do not possess an ability that is important to visual input: building the attention among features of different scales
+  * we propose Cross-scale Embedding Layer (CEL) and Long Short Distance Attention (LSDA).
+* :star: [StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators ](https://arxiv.org/pdf/2108.00946.pdf) (NVIDIA)
+  * Leveraging the semantic power of large scale Contrastive-Language-Image-Pretraining (CLIP) models, we present a text-driven method that allows shifting a generative model to new domains, without having to collect even a single image from those domains. 
+  * We show that **through natural language prompts** and a few minutes of training, our method can adapt a generator across a multitude of domains characterized by diverse styles and shapes.
+* [GTNet:Guided Transformer Network for Detecting Human-Object Interactions](https://arxiv.org/pdf/2108.00596.pdf)
+* [GraphFPN: Graph Feature Pyramid Network for Object Detection](https://arxiv.org/pdf/2108.00580.pdf)  (ICCV'21)
+  * State-of-the-art methods for multi-scale feature learning focus on performing feature interactions across space and scales using neural networks **with a fixed topology**.
+  * In this paper, we propose graph feature pyramid networks that are capable of **adapting their topological structures to varying intrinsic image structures**, and **supporting simultaneous feature interactions across all scales**.
+* [Greedy Network Enlarging ](https://arxiv.org/pdf/2108.00177.pdf) (Yunhe Wang)
+  * 针对CNN的scaling
+* [Multi-scale Matching Networks for Semantic Correspondence](https://arxiv.org/pdf/2108.00211.pdf)  (ICCV'21)
+* [Learning Instance-level Spatial-Temporal Patterns for Person Re-identification](https://arxiv.org/pdf/2108.00171.pdf)  (Tieniu Tan)
+* :star: [Multi-Head Self-Attention via Vision Transformer for Zero-Shot Learning](https://arxiv.org/pdf/2108.00045.pdf)  [code](https://github.com/FaisalAlamri0/ViT-ZSL)
+* [Object-aware Contrastive Learning for Debiased Scene Representation](https://arxiv.org/pdf/2108.00049.pdf)  [code](git@github.com:alinlab/occon.git)
+  * 解决对比学习过度关注背景区域的问题（真的是个问题？）
+  * However, the learned representations are often contextually biased to the spurious scene correlations of different objects or object and background, which may harm their generalization on the downstream tasks.
+  *  To tackle the issue, we develop a novel object-aware contrastive learning framework that first (a) localizes objects in a self-supervised manner and then (b) debias scene correlations via appropriate data augmentations considering the inferred object locations
+* [Conditional Bures Metric for Domain Adaptation](https://arxiv.org/pdf/2108.00302.pdf)  (CVPR'21)
+* [Group Fisher Pruning for Practical Network Compression](https://arxiv.org/pdf/2108.00708.pdf)  (ICML'21)
+
 #### 20210802
 
 * :star: [Perceiver IO: A General Architecture for Structured Inputs & Outputs ](https://arxiv.org/pdf/2107.14795.pdf)  （Andrew Zisserman, deepmind） [code](https://github.com/deepmind/deepmind-research/tree/master/perceiver)
