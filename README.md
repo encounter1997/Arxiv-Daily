@@ -12,6 +12,53 @@ My daily arxiv reading notes.
 
 ## CV (Daily)
 
+#### 20210805
+
+* [Enhancing Self-supervised Video Representation Learning via Multi-level Feature Optimization](https://arxiv.org/pdf/2108.02183.pdf)  (ICCV'21,  John See)
+  * However, most recent works have mainly focused on high-level semantics and neglected lower-level representations and their temporal relationship which are crucial for general video understanding.
+  * Concretely, high-level features obtained from naive and prototypical contrastive learning are utilized to build distribution graphs, guiding the process of low-level and mid-level feature learning.    We also devise a simple temporal modeling module from multi-level features to enhance motion pattern learning.
+* [Towards Coherent Visual Storytelling with Ordered Image Attention](https://arxiv.org/pdf/2108.02180.pdf)
+  * We address the problem of visual storytelling, i.e., generating a story for a given sequence of images. While each sentence of the story should describe a corresponding image, a coherent story also needs to be consistent and relate to both future and past images
+* [Armour: Generalizable Compact Self-Attention for Vision Transformers](https://arxiv.org/pdf/2108.01778.pdf)
+  * This paper introduces a compact selfattention mechanism that is fundamental and highly generalizable. The proposed method reduces redundancy and improves efficiency on top of the existing attention optimizations. 
+  * We show its drop-in applicability for both the regular attention mechanism and some most recent variants in vision transformers
+* [Vision Transformer with Progressive Sampling](https://arxiv.org/pdf/2108.01684.pdf)  (ICCV'21)  (Dahua Lin) 
+  * STRAIGHTFORWARD: 改进ViT的patch spliting
+  * However, such naive tokenization could destruct object structures, assign grids to uninterested regions such as background, and introduce interference signals. To mitigate the above issues, in this paper, we propose an iterative and progressive sampling strategy to locate discriminative regions
+* [Generic Neural Architecture Search via Regression](https://arxiv.org/pdf/2108.01899.pdf)
+  * These observations inspire us to ask: Is it necessary to use the performance of specific downstream tasks to evaluate and search for good neural architectures? Can we perform NAS effectively and efficiently while being agnostic to the downstream task? 
+  * GenNAS does not use task-specific labels but instead adopts regression on a set of manually designed synthetic signal bases for architecture evaluation. Such a self-supervised regression task can effectively evaluate the intrinsic power of an architecture to capture and transform the input signal patterns, and allow more sufficient usage of training samples.
+
+#### 20210804
+
+* [Generalized Source-free Domain Adaptation](https://arxiv.org/pdf/2108.01614.pdf)  (ICCV'21)
+  * Some recent works tackle source-free domain adaptation (SFDA) where only a source pre-trained model is available for adaptation to the target domain. However, those methods do not consider keeping source performance which is of high practical value in real world applications. In this paper, we propose a new domain adaptation paradigm called Generalized Source-free Domain Adaptation (G-SFDA), where the learned model needs to perform well on both the target and source domains, with only access to current unlabeled target data during adaptation.
+* [Boosting Weakly Supervised Object Detection via Learning Bounding Box Adjusters](https://arxiv.org/pdf/2108.01499.pdf)  (Wangmeng Zuo, ICCV'21)
+  * In this paper, we defend the problem setting for improving localization performance by leveraging the bounding box regression knowledge from a well-annotated auxiliary dataset.
+* [Evo-ViT: Slow-Fast Token Evolution for Dynamic Vision Transformer](https://arxiv.org/pdf/2108.01390.pdf)
+  * ViT模型压缩
+  * Recent efficient designs for vision transformers follow two pipelines, namely, structural compression based on local spatial prior and non-structural token pruning.  However, token pruning breaks the spatial structure that is indispensable for local spatial prior.
+  *  To take advantage of both two pipelines, this work seeks to dynamically identify uninformative tokens for each instance and trim down both the training and inference complexity while maintaining complete spatial structure and information flow
+* [Where do Models go Wrong? Parameter-Space Saliency Maps for Explainability](https://arxiv.org/pdf/2108.01335.pdf)  (Funny)
+  * Conventional saliency maps highlight input features to which neural network predictions are highly sensitive. We take a different approach to saliency, in which we identify and analyze the network parameters, rather than inputs, which are responsible for erroneous decisions
+  * We find that samples which cause similar parameters to malfunction are semantically similar. We also show that pruning the most salient parameters for a wrongly classified sample often improves model behavior. Furthermore, fine-tuning a small number of the most salient parameters on a single sample results in error correction on other samples that are misclassified for similar reasons.
+  * 从参数上提升可解释性是否靠谱？（对不同结构模型的参数是否适用？在训练不同阶段是否都适用？对不同输入数据是否都适用？）
+* [CanvasVAE: Learning to Generate Vector Graphic Documents](https://arxiv.org/pdf/2108.01249.pdf)  (ICCV'21)
+* [Domain Generalization via Gradient Surgery](https://arxiv.org/pdf/2108.01621.pdf)   (ICCV'21)
+  * Our hypothesis is that when training with multiple domains, conflicting gradients within each mini-batch contain information specific to the individual domains which is irrelevant to the others, including the test domain. If left untouched, such disagreement may degrade generalization performance.
+  * In this work, we characterize the conflicting gradients emerging in domain shift scenarios and devise novel gradient agreement strategies based on gradient surgery to alleviate their effect.
+  * 和zhibo chen的UDA文章思想类似
+* [Elastic Architecture Search for Diverse Tasks with Different Resources](https://arxiv.org/pdf/2108.01224.pdf)  (Jianfei Cai)
+  * We study a new challenging problem of efficient deployment for diverse tasks with different resources, where the resource constraint and task of interest corresponding to a group of classes are dynamically specified at testing time.
+  * we present a novel and general framework, called Elastic Architecture Search (EAS), permitting instant specializations at runtime for diverse tasks with various resource constraints.
+  * To this end, we first propose to effectively train the over-parameterized network via a task dropout strategy to disentangle the tasks during training. In this way, the resulting model is robust to the subsequent task dropping at inference time. Based on the well-trained over-parameterized network, we then propose an efficient architecture generator to obtain optimal architectures within a single forward pass.
+* [Toward Spatially Unbiased Generative Models](https://arxiv.org/pdf/2108.01285.pdf)  (ICCV'21, Funny)  [code]()
+  * Recent image generation models show remarkable generation performance. However, they mirror strong location preference in datasets, which we call spatial bias. Therefore, generators render poor samples at unseen locations and scales.
+  * We argue that the generators rely on their implicit positional encoding to render spatial content. From our observations, the generator’s implicit positional encoding is translation-variant, making the generator spatially biased.
+  * To address this issue, we propose injecting explicit positional encoding at each scale of the generator. By learning the spatially unbiased generator, we facilitate the robust use of generators in multiple tasks, such as GAN inversion, multi-scale generation, generation of arbitrary sizes and aspect ratios. 
+
+
+
 #### 20210803
 
 * [HiFT: Hierarchical Feature Transformer for Aerial Tracking](https://arxiv.org/pdf/2108.00202.pdf)  (ICCV'21)
