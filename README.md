@@ -12,6 +12,31 @@ My daily arxiv reading notes.
 
 ## CV (Daily)
 
+#### 20210806
+
+* :star: ​[Sketch Your Own GAN ](https://arxiv.org/pdf/2108.02774.pdf) (Jun-Yan Zhu, ICCV'21)  [code](https://github.com/peterwang512/GANSketching)
+  * In this work, we present a method, GAN Sketching, for rewriting GANs with one or more sketches, to make GANs training easier for novice users. In particular, we change the weights of an original GAN model according to user sketches.
+* [Video Contrastive Learning with Global Context](https://arxiv.org/pdf/2108.02722.pdf)  (Mu Li)   [code](https://github.com/amazon-research/video-contrastive-learning)
+  * However, existing approaches rely heavily on the short-range spatiotemporal salience to form clip-level contrastive signals, thus limit themselves from using global context
+  * In this paper, we propose a new video-level contrastive learning method based on segments to formulate positive pairs. Our formulation is able to capture global context in a video, thus robust to temporal content change. We also incorporate a temporal order regularization term to enforce the inherent sequential structure of videos.
+* [Instance Similarity Learning for Unsupervised Feature Representation](https://arxiv.org/pdf/2108.02721)  (ICCV'21)
+  * Conventional methods assign close instance pairs in the feature space with high similarity, which usually leads to wrong pairwise relationship for large neighborhoods because the Euclidean distance fails to depict the true semantic similarity on the feature manifold.
+  *  On the contrary, our method mines the feature manifold in an unsupervised manner, through which the semantic similarity among instances is learned in order to obtain discriminative representations.
+* [A Low Rank Promoting Prior for Unsupervised Contrastive Learning](https://arxiv.org/pdf/2108.02696.pdf)  (Tao Mei, Ting Yao)
+  * In this paper, we construct a novel probabilistic graphical model that effectively incorporates the low rank promoting prior into the framework of contrastive learning, referred to as LORAC.
+  * Most importantly, we argue that the low rank prior employed here is not unique, and many different priors can be invoked in a similar probabilistic way, corresponding to different hypotheses about underlying truth behind the contrastive features
+* [Residual Attention: A Simple but Effective Method for Multi-Label Recognition](https://arxiv.org/pdf/2108.02456.pdf)  (ICCV'21) Funny
+  * To effectively capture different spatial regions occupied by objects from different categories, we propose an embarrassingly simple module, named class-specific residual attention (CSRA). CSRA generates class-specific features for every category by proposing a simple spatial attention score, and then combines it with the class-agnostic average pooling feature. 
+  * Furthermore, with only 4 lines of code, CSRA also leads to consistent improvement across many diverse pretrained models and datasets without any extra training
+* [Unifying Nonlocal Blocks for Neural Networks](https://arxiv.org/pdf/2108.02451.pdf)  (ICCV'21)
+* [Token Shift Transformer for Video Classification](https://arxiv.org/pdf/2108.02432.pdf)  (MM'21)
+* [IDM: An Intermediate Domain Module for Domain Adaptive Person Re-ID](https://arxiv.org/pdf/2108.02413.pdf)  (ICCV'21 Oral)
+* [ACE: Ally Complementary Experts for Solving Long-Tailed Recognition in One-Shot](https://arxiv.org/pdf/2108.02385.pdf)
+* :star: ​[Hierarchical Aggregation for 3D Instance Segmentation](https://arxiv.org/pdf/2108.02350.pdf)  (Xinggang Wang)  [code](https://github.com/hustvl/HAIS)
+* [Boosting Few-shot Semantic Segmentation with Transformers](https://arxiv.org/pdf/2108.02266.pdf)  (Luc Van Gool)
+
+
+
 #### 20210805
 
 * [Enhancing Self-supervised Video Representation Learning via Multi-level Feature Optimization](https://arxiv.org/pdf/2108.02183.pdf)  (ICCV'21,  John See)
