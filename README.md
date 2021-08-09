@@ -12,6 +12,17 @@ My daily arxiv reading notes.
 
 ## CV (Daily)
 
+#### 20210809
+
+* :star: [Improving Contrastive Learning by Visualizing Feature Transformation](https://arxiv.org/pdf/2108.02982.pdf) (Chang Wen Chen, ICCV Oral)  [code](https://github.com/DTennant/CL-Visualizing-Feature-Transformation)
+  * In this paper, we attempt to devise a feature-level data manipulation, differing from data augmentation, to enhance the generic contrastive self-supervised learning
+  *  To this end, we first design a visualization scheme for pos/neg score distribution, which enables us to analyze, interpret and understand the learning process. To our knowledge, this is the first attempt of its kind.
+  *  leveraging this tool, we gain some significant observations, which inspire our novel Feature Transformation proposals including the extrapolation of positives. This operation creates harder positives to boost the learning because hard positives enable the model to be more view-invariant.
+  * Besides, we propose the interpolation among negatives, which provides diversified negatives and makes the model more discriminative.
+* :star: ​[Evaluating CLIP: Towards Characterization of Broader Capabilities and Downstream Implications](https://arxiv.org/pdf/2108.02818.pdf)
+* [Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer](https://arxiv.org/pdf/2108.03032.pdf) (ICCV"21)
+* [Learning Meta-class Memory for Few-Shot Semantic Segmentation](https://arxiv.org/pdf/2108.02958.pdf)  (ICCV'21)
+
 #### 20210806
 
 * :star: ​[Sketch Your Own GAN ](https://arxiv.org/pdf/2108.02774.pdf) (Jun-Yan Zhu, ICCV'21)  [code](https://github.com/peterwang512/GANSketching)
