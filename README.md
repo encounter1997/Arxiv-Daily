@@ -14,6 +14,24 @@ My daily arxiv reading notes.
 
 ## CV (Daily)
 
+#### 20210911
+
+* [RobustART : Benchmarking Robustness on Architecture Design and Training Techniques](https://arxiv.org/pdf/2109.05211.pdf)
+  * (Alan Yuille , Philip H.S. Torr , Dacheng Tao)
+* [CDTrans: Cross-domain Transformer for Unsupervised Domain Adaptation](https://arxiv.org/pdf/2109.06165.pdf)
+  * With the success of Transformer in various tasks, we find that the cross-attention in Transformer is robust to the noisy input pairs for better feature alignment, thus in this paper Transformer is adopted for the challenging UDA task.
+  *  Specifically, to generate accurate input pairs, we design a two-way centeraware labeling algorithm to produce pseudo labels for target samples. 
+* [DAFNe: A One-Stage Anchor-Free Deep Model for Oriented Object Detection](https://arxiv.org/pdf/2109.06148.pdf)
+* [BGT-Net: Bidirectional GRU Transformer Network for Scene Graph Generation](https://arxiv.org/pdf/2109.05346.pdf)  (CVPR'21)
+* [Mutual Supervision for Dense Object Detection](https://arxiv.org/pdf/2109.05986.pdf)  (ICCV'21)
+* [Sparse MLP for Image Recognition: Is Self-Attention Really Necessary?](https://arxiv.org/pdf/2109.05422.pdf) (Wenjun Zeng)
+  * 把CC-NET的思想用到MLP上
+* [Adversarially Trained Object Detector for Unsupervised Domain Adaptation](https://arxiv.org/pdf/2109.05751.pdf)
+* [Variational Disentanglement for Domain Generalization](https://arxiv.org/pdf/2109.05826.pdf)
+
+* [Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR-based Perception](https://arxiv.org/pdf/2109.05441.pdf)  (TPAMI'21)
+
+
 #### 20210910
 
 * [Leveraging Local Domains for Image-to-Image Translation](https://arxiv.org/pdf/2109.04468.pdf) 
