@@ -14,6 +14,42 @@ My daily arxiv reading notes.
 
 ## CV (Daily)
 
+#### 20210917
+
+* :star: [An End-to-End Transformer Model for 3D Object Detection](https://arxiv.org/pdf/2109.08141.pdf)
+  * [code](https://github.com/facebookresearch/3detr)  ICCV oral
+  * Specifically, we find that a standard Transformer with non-parametric queries and Fourier positional embeddings is competitive with specialized architectures that employ libraries of 3Dspecific operators with hand-tuned hyperparameters.
+  * 3DETR is conceptually simple and easy to implement, enabling further improvements by incorporating 3D domain knowledge. 
+* :star: [Exploiting Activation based Gradient Output Sparsity to Accelerate Backpropagation in CNNs](https://arxiv.org/pdf/2109.07710.pdf)
+  * However, training these models involving large parameters is both time-consuming and energy-hogging. In this regard, several prior works have advocated for sparsity to speed up the of DL training and more so, the inference phase
+  * This work begins with the observation that during training, sparsity in the forward and backward passes are correlated. In that context, we investigate two types of sparsity (input and output type) inherent in gradient descent-based optimization algorithms and propose a hardware micro-architecture to leverage the same.
+  * 与Yulin Wang, Gao Huang的ICLR21工作相关？
+* [Label Assignment Distillation for Object Detection](https://arxiv.org/pdf/2109.07843.pdf)
+* [Dense Semantic Contrast for Self-Supervised Visual Representation Learning](https://arxiv.org/pdf/2109.07756.pdf) (MM'21 oral)
+* [Few-Shot Object Detection by Attending to Per-Sample-Prototype](https://arxiv.org/pdf/2109.07734.pdf)
+* [METEOR: A Massive Dense & Heterogeneous Behavior Dataset for Autonomous Driving](https://arxiv.org/pdf/2109.07648.pdf)
+* [RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching](https://arxiv.org/pdf/2109.07547.pdf)  (Jia Deng)
+
+#### 20210913
+
+* :star: [Is Attention Better Than Matrix Decomposition?](https://arxiv.org/pdf/2109.04553.pdf)  (ICLR'21)
+  * Our intriguing finding is that self-attention is not better than the matrix decomposition (MD) model developed 20 years ago regarding the performance and computational cost for encoding the long-distance dependencies.
+  * We model the global context issue as a low-rank recovery problem and show that its optimization algorithms can help design global information blocks. 
+  * This paper then proposes a series of Hamburgers, in which we employ the optimization algorithms for solving MDs to factorize the input representations into sub-matrices and reconstruct a low-rank embedding. Hamburgers with different MDs can perform favorably against the popular global context module self-attention when carefully coping with gradients back-propagated through MDs
+* [TADA: Taxonomy Adaptive Domain Adaptation](https://arxiv.org/pdf/2109.04813.pdf)  (Dengxin Dai, Wenguan Wang, Fisher Yu , Luc Van Gool)
+  * Funny
+  * We therefore introduce the more general taxonomy adaptive domain adaptation (TADA) problem, allowing for inconsistent taxonomies between the two domains. 
+  * We further propose an approach that jointly addresses the imagelevel and label-level domain adaptation. On the label-level, we employ a bilateral mixed sampling strategy to augment the target domain, and a relabelling method to unify and align the label spaces. We address the image-level domain gap by proposing an uncertainty-rectified contrastive learning method, leading to more domain-invariant and class discriminative features.
+  * different TADA settings: open taxonomy, coarse-to-fine taxonomy, and partially-overlapping taxonomy
+* [EfficientCLIP: Efficient Cross-Modal Pre-training by Ensemble Confident Learning and Language Modeling](https://arxiv.org/pdf/2109.04699.pdf)
+  * EfficientCLIP method via Ensemble Confident Learning to obtain a less noisy data subset. Extra rich non-paired single-modal text data is used for boosting the generalization of text branch.
+  * We achieve the state-of-theart performance on Chinese cross-modal retrieval tasks with only 1/10 training resources compared to CLIP and WenLan,
+* [LAViTeR: Learning Aligned Visual and Textual Representations Assisted by Image and Caption Generation](https://arxiv.org/pdf/2109.04993.pdf)
+  * This paper proposes LAViTeR, a novel architecture for visual and textual representation learning. The main module, Visual Textual Alignment (VTA) will be assisted by two auxiliary tasks, GAN-based image synthesis and Image Captioning. We also propose a new evaluation metric measuring the similarity between the learnt visual and textual embedding.
+* [LibFewShot: A Comprehensive Library for Few-shot Learning ](https://arxiv.org/pdf/2109.04898.pdf) (Jiebo Luo)
+  * 代码库
+* [An Empirical Study of GPT-3 for Few-Shot Knowledge-Based VQA](https://arxiv.org/pdf/2109.05014.pdf)
+
 #### 20210911
 
 * [RobustART : Benchmarking Robustness on Architecture Design and Training Techniques](https://arxiv.org/pdf/2109.05211.pdf)
@@ -45,24 +81,4 @@ My daily arxiv reading notes.
 * [TxT: Crossmodal End-to-End Learning with Transformers](https://arxiv.org/pdf/2109.04422.pdf)
 * [IICNet: A Generic Framework for Reversible Image Conversion](https://arxiv.org/pdf/2109.04242.pdf)
 * [Vision-and-Language or Vision-for-Language? On Cross-Modal Influence in Multimodal Transformers](https://arxiv.org/pdf/2109.04448.pdf)
-
-#### 20210913
-
-* :star: [Is Attention Better Than Matrix Decomposition?](https://arxiv.org/pdf/2109.04553.pdf)  (ICLR'21)
-  * Our intriguing finding is that self-attention is not better than the matrix decomposition (MD) model developed 20 years ago regarding the performance and computational cost for encoding the long-distance dependencies.
-  * We model the global context issue as a low-rank recovery problem and show that its optimization algorithms can help design global information blocks. 
-  * This paper then proposes a series of Hamburgers, in which we employ the optimization algorithms for solving MDs to factorize the input representations into sub-matrices and reconstruct a low-rank embedding. Hamburgers with different MDs can perform favorably against the popular global context module self-attention when carefully coping with gradients back-propagated through MDs
-* [TADA: Taxonomy Adaptive Domain Adaptation](https://arxiv.org/pdf/2109.04813.pdf)  (Dengxin Dai, Wenguan Wang, Fisher Yu , Luc Van Gool)
-  * Funny
-  * We therefore introduce the more general taxonomy adaptive domain adaptation (TADA) problem, allowing for inconsistent taxonomies between the two domains. 
-  * We further propose an approach that jointly addresses the imagelevel and label-level domain adaptation. On the label-level, we employ a bilateral mixed sampling strategy to augment the target domain, and a relabelling method to unify and align the label spaces. We address the image-level domain gap by proposing an uncertainty-rectified contrastive learning method, leading to more domain-invariant and class discriminative features.
-  * different TADA settings: open taxonomy, coarse-to-fine taxonomy, and partially-overlapping taxonomy
-* [EfficientCLIP: Efficient Cross-Modal Pre-training by Ensemble Confident Learning and Language Modeling](https://arxiv.org/pdf/2109.04699.pdf)
-  * EfficientCLIP method via Ensemble Confident Learning to obtain a less noisy data subset. Extra rich non-paired single-modal text data is used for boosting the generalization of text branch.
-  * We achieve the state-of-theart performance on Chinese cross-modal retrieval tasks with only 1/10 training resources compared to CLIP and WenLan,
-* [LAViTeR: Learning Aligned Visual and Textual Representations Assisted by Image and Caption Generation](https://arxiv.org/pdf/2109.04993.pdf)
-  * This paper proposes LAViTeR, a novel architecture for visual and textual representation learning. The main module, Visual Textual Alignment (VTA) will be assisted by two auxiliary tasks, GAN-based image synthesis and Image Captioning. We also propose a new evaluation metric measuring the similarity between the learnt visual and textual embedding.
-* [LibFewShot: A Comprehensive Library for Few-shot Learning ](https://arxiv.org/pdf/2109.04898.pdf) (Jiebo Luo)
-  * 代码库
-* [An Empirical Study of GPT-3 for Few-Shot Knowledge-Based VQA](https://arxiv.org/pdf/2109.05014.pdf)
 
